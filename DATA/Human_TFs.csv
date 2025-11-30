@@ -1,0 +1,1759 @@
+﻿Symbol,GeneID,Name,Species,# PPI ,Type
+ADNP,23394,activity-dependent neuroprotector homeobox,human,15,TF
+ADNP2,22850,ADNP homeobox 2,human,3,TF
+AEBP1,165,AE binding protein 1,human,0,TF
+AEBP2,121536,AE binding protein 2,human,12,TF
+AFF1,4299,AF4/FMR2 family member 1,human,10,TF
+AFF2,2334,AF4/FMR2 family member 2,human,2,TF
+AFF3,3899,AF4/FMR2 family member 3,human,0,TF
+AFF4,27125,AF4/FMR2 family member 4,human,11,TF
+AHCTF1,25909,AT-hook containing transcription factor 1,human,21,TF
+AHR,196,aryl hydrocarbon receptor,human,5,TF
+AHRR,57491,aryl-hydrocarbon receptor repressor,human,3,TF
+AIRE,326,autoimmune regulator,human,20,TF
+AKNA,80709,AT-hook transcription factor,human,0,TF
+ALX1,8092,ALX homeobox 1,human,1,TF
+ALX3,257,ALX homeobox 3,human,0,TF
+ALX4,60529,ALX homeobox 4,human,0,TF
+ANKZF1,55139,ankyrin repeat and zinc finger domain containing 1,human,3,TF
+AP5Z1,9907,adaptor related protein complex 5 zeta 1 subunit,human,2,TF
+AR,367,androgen receptor,human,90,TF
+ARGFX,503582,arginine-fifty homeobox,human,0,TF
+ARHGAP35,2909,Rho GTPase activating protein 35,human,0,TF
+ARID1A,8289,AT-rich interaction domain 1A,human,11,TF
+ARID1B,57492,AT-rich interaction domain 1B,human,7,TF
+ARID2,196528,AT-rich interaction domain 2,human,4,TF
+ARID3A,1820,AT-rich interaction domain 3A,human,4,TF
+ARID3B,10620,AT-rich interaction domain 3B,human,0,TF
+ARID3C,138715,AT-rich interaction domain 3C,human,0,TF
+ARID4A,5926,AT-rich interaction domain 4A,human,15,TF
+ARID4B,51742,AT-rich interaction domain 4B,human,14,TF
+ARID5A,10865,AT-rich interaction domain 5A,human,2,TF
+ARID5B,84159,AT-rich interaction domain 5B,human,5,TF
+ARNT,405,aryl hydrocarbon receptor nuclear translocator,human,4,TF
+ARNT2,9915,aryl hydrocarbon receptor nuclear translocator 2,human,7,TF
+ARNTL,406,aryl hydrocarbon receptor nuclear translocator like,human,7,TF
+ARNTL2,56938,aryl hydrocarbon receptor nuclear translocator like 2,human,1,TF
+ARX,170302,aristaless related homeobox,human,0,TF
+ASCL1,429,achaete-scute family bHLH transcription factor 1,human,0,TF
+ASCL2,430,achaete-scute family bHLH transcription factor 2,human,2,TF
+ASCL3,56676,achaete-scute family bHLH transcription factor 3,human,0,TF
+ASCL4,121549,achaete-scute family bHLH transcription factor 4,human,1,TF
+ASCL5,647219,achaete-scute family bHLH transcription factor 5,human,0,TF
+ASH1L,55870,"ash1 (absent, small, or homeotic)-like (Drosophila)",human,2,TF
+ASH2L,9070,"ash2 (absent, small, or homeotic)-like (Drosophila)",human,27,TF
+ATF1,466,activating transcription factor 1,human,3,TF
+ATF2,1386,activating transcription factor 2,human,31,TF
+ATF3,467,activating transcription factor 3,human,16,TF
+ATF4,468,activating transcription factor 4,human,11,TF
+ATF5,22809,activating transcription factor 5,human,1,TF
+ATF6,22926,activating transcription factor 6,human,3,TF
+ATF6B,1388,activating transcription factor 6 beta,human,1,TF
+ATF7,11016,activating transcription factor 7,human,2,TF
+ATOH1,474,atonal bHLH transcription factor 1,human,0,TF
+ATOH7,220202,atonal bHLH transcription factor 7,human,0,TF
+ATOH8,84913,atonal bHLH transcription factor 8,human,0,TF
+ATRX,546,alpha thalassemia/mental retardation syndrome X-linked,human,12,TF
+ATXN7,6314,ataxin 7,human,20,TF
+BACH1,571,"BTB and CNC homology 1, basic leucine zipper transcription factor 1",human,7,TF
+BACH2,60468,BTB domain and CNC homolog 2,human,1,TF
+BARHL1,56751,BarH like homeobox 1,human,3,TF
+BARHL2,343472,BarH like homeobox 2,human,0,TF
+BARX1,56033,BARX homeobox 1,human,2,TF
+BARX2,8538,BARX homeobox 2,human,0,TF
+BATF,10538,"basic leucine zipper transcription factor, ATF-like",human,2,TF
+BATF2,116071,"basic leucine zipper transcription factor, ATF-like 2",human,1,TF
+BATF3,55509,"basic leucine zipper transcription factor, ATF-like 3",human,2,TF
+BBX,56987,bobby sox homolog (Drosophila),human,2,TF
+BCL11A,53335,B-cell CLL/lymphoma 11A,human,9,TF
+BCL11B,64919,B-cell CLL/lymphoma 11B,human,10,TF
+BCL3,602,B-cell CLL/lymphoma 3,human,15,TF
+BCL6,604,B-cell CLL/lymphoma 6,human,25,TF
+BCL6B,255877,"B-cell CLL/lymphoma 6, member B",human,3,TF
+BCLAF1,9774,BCL2 associated transcription factor 1,human,31,TF
+BHLHA15,168620,basic helix-loop-helix family member a15,human,0,TF
+BHLHA9,727857,basic helix-loop-helix family member a9,human,0,TF
+BHLHB9,80823,"basic helix-loop-helix domain containing, class B, 9",human,0,TF
+BHLHE22,27319,basic helix-loop-helix family member e22,human,0,TF
+BHLHE23,128408,basic helix-loop-helix family member e23,human,0,TF
+BHLHE40,8553,basic helix-loop-helix family member e40,human,17,TF
+BHLHE41,79365,basic helix-loop-helix family member e41,human,9,TF
+BMP2,650,bone morphogenetic protein 2,human,3,TF
+BNC1,646,basonuclin 1,human,0,TF
+BNC2,54796,basonuclin 2,human,0,TF
+BOLA1,51027,bolA family member 1,human,2,TF
+BOLA2,552900,bolA family member 2,human,4,TF
+BOLA3,388962,bolA family member 3,human,0,TF
+BPTF,2186,bromodomain PHD finger transcription factor,human,9,TF
+BRCA1,672,breast cancer 1,human,105,TF
+BSX,390259,brain specific homeobox,human,0,TF
+C20orf194,25943,chromosome 20 open reading frame 194,human,0,TF
+CAMTA1,23261,calmodulin binding transcription activator 1,human,0,TF
+CAMTA2,23125,calmodulin binding transcription activator 2,human,1,TF
+CARHSP1,23589,calcium regulated heat stable protein 1,human,5,TF
+CASZ1,54897,castor zinc finger 1,human,2,TF
+CBFB,865,"core-binding factor, beta subunit",human,4,TF
+CCDC79,283847,coiled-coil domain containing 79,human,0,TF
+CDC5L,988,cell division cycle 5 like,human,105,TF
+CDX1,1044,caudal type homeobox 1,human,0,TF
+CDX2,1045,caudal type homeobox 2,human,1,TF
+CDX4,1046,caudal type homeobox 4,human,3,TF
+CEBPA,1050,CCAAT/enhancer binding protein alpha,human,12,TF
+CEBPB,1051,CCAAT/enhancer binding protein beta,human,14,TF
+CEBPD,1052,CCAAT/enhancer binding protein delta,human,6,TF
+CEBPE,1053,CCAAT/enhancer binding protein epsilon,human,6,TF
+CEBPG,1054,CCAAT/enhancer binding protein gamma,human,1,TF
+CEBPZ,10153,CCAAT/enhancer binding protein zeta,human,10,TF
+CENPT,80152,centromere protein T,human,19,TF
+CERS3,204219,ceramide synthase 3,human,0,TF
+CERS6,253782,ceramide synthase 6,human,0,TF
+CHAMP1,283489,chromosome alignment maintaining phosphoprotein 1,human,6,TF
+CIC,23152,capicua transcriptional repressor,human,4,TF
+CIZ1,25792,CDKN1A interacting zinc finger protein 1,human,3,TF
+CLOCK,9575,clock circadian regulator,human,5,TF
+CNOT4,4850,CCR4-NOT transcription complex subunit 4,human,15,TF
+CPXCR1,53336,"CPX chromosome region, candidate 1",human,0,TF
+CRAMP1,57585,cramped chromatin regulator homolog 1,human,0,TF
+CREB1,1385,cAMP responsive element binding protein 1,human,36,TF
+CREB3,10488,cAMP responsive element binding protein 3,human,6,TF
+CREB3L1,90993,cAMP responsive element binding protein 3-like 1,human,0,TF
+CREB3L2,64764,cAMP responsive element binding protein 3-like 2,human,1,TF
+CREB3L3,84699,cAMP responsive element binding protein 3-like 3,human,4,TF
+CREB3L4,148327,cAMP responsive element binding protein 3-like 4,human,0,TF
+CREB5,9586,cAMP responsive element binding protein 5,human,5,TF
+CREBBP,1387,CREB binding protein,human,117,TF
+CREBL2,1389,cAMP responsive element binding protein-like 2,human,0,TF
+CREBRF,153222,CREB3 regulatory factor,human,1,TF
+CREBZF,58487,CREB/ATF bZIP transcription factor,human,2,TF
+CREM,1390,cAMP responsive element modulator,human,5,TF
+CRX,1406,cone-rod homeobox,human,7,TF
+CSRNP1,64651,cysteine-serine-rich nuclear protein 1,human,0,TF
+CSRNP2,81566,cysteine-serine-rich nuclear protein 2,human,0,TF
+CSRNP3,80034,cysteine-serine-rich nuclear protein 3,human,0,TF
+CTCF,10664,CCCTC-binding factor (zinc finger protein),human,23,TF
+CTCFL,140690,CCCTC-binding factor like,human,1,TF
+CUX1,1523,cut-like homeobox 1,human,9,TF
+CUX2,23316,cut-like homeobox 2,human,0,TF
+CXXC1,30827,CXXC finger protein 1,human,12,TF
+DACH1,1602,dachshund family transcription factor 1,human,6,TF
+DACH2,117154,dachshund family transcription factor 2,human,0,TF
+DBP,1628,D site of albumin promoter (albumin D-box) binding protein,human,0,TF
+DBX1,120237,developing brain homeobox 1,human,0,TF
+DBX2,440097,developing brain homeobox 2,human,0,TF
+DDB2,1643,damage specific DNA binding protein 2,human,22,TF
+DDIT3,1649,DNA damage inducible transcript 3,human,14,TF
+DEAF1,10522,"DEAF1, transcription factor",human,5,TF
+DLX1,1745,distal-less homeobox 1,human,0,TF
+DLX2,1746,distal-less homeobox 2,human,2,TF
+DLX3,1747,distal-less homeobox 3,human,2,TF
+DLX4,1748,distal-less homeobox 4,human,5,TF
+DLX5,1749,distal-less homeobox 5,human,0,TF
+DLX6,1750,distal-less homeobox 6,human,0,TF
+DMAP1,55929,DNA methyltransferase 1 associated protein 1,human,21,TF
+DMBX1,127343,diencephalon/mesencephalon homeobox 1,human,1,TF
+DMRT1,1761,doublesex and mab-3 related transcription factor 1,human,1,TF
+DMRT2,10655,doublesex and mab-3 related transcription factor 2,human,0,TF
+DMRT3,58524,doublesex and mab-3 related transcription factor 3,human,4,TF
+DMRTA1,63951,DMRT like family A1,human,0,TF
+DMRTA2,63950,DMRT like family A2,human,0,TF
+DMRTB1,63948,DMRT like family B with proline rich C-terminal 1,human,10,TF
+DMRTC1,63947,DMRT like family C1,human,0,TF
+DMRTC1B,728656,DMRT like family C1B,human,0,TF
+DMRTC2,63946,DMRT like family C2,human,0,TF
+DMTF1,9988,cyclin D binding myb like transcription factor 1,human,2,TF
+DNAJC1,64215,DnaJ heat shock protein family (Hsp40) member C1,human,1,TF
+DNAJC2,27000,DnaJ heat shock protein family (Hsp40) member C2,human,0,TF
+DNAJC21,134218,DnaJ heat shock protein family (Hsp40) member C21,human,2,TF
+DNMT1,1786,DNA (cytosine-5-)-methyltransferase 1,human,36,TF
+DNMT3A,1788,DNA (cytosine-5-)-methyltransferase 3 alpha,human,26,TF
+DNMT3B,1789,DNA (cytosine-5-)-methyltransferase 3 beta,human,34,TF
+DNMT3L,29947,DNA (cytosine-5-)-methyltransferase 3-like,human,4,TF
+DPF1,8193,double PHD fingers 1,human,1,TF
+DPF2,5977,double PHD fingers 2,human,11,TF
+DPF3,8110,double PHD fingers 3,human,5,TF
+DPRX,503834,divergent-paired related homeobox,human,0,TF
+DR1,1810,down-regulator of transcription 1,human,8,TF
+DRAP1,10589,DR1 associated protein 1,human,3,TF
+DRGX,644168,dorsal root ganglia homeobox,human,0,TF
+DUX4,100288687,double homeobox 4,human,0,TF
+DUX4L9,100288711,double homeobox 4 like 9,human,0,TF
+DUXA,503835,double homeobox A,human,0,TF
+E2F1,1869,E2F transcription factor 1,human,35,TF
+E2F2,1870,E2F transcription factor 2,human,5,TF
+E2F3,1871,E2F transcription factor 3,human,27,TF
+E2F4,1874,E2F transcription factor 4,human,13,TF
+E2F5,1875,E2F transcription factor 5,human,4,TF
+E2F6,1876,E2F transcription factor 6,human,15,TF
+E2F7,144455,E2F transcription factor 7,human,3,TF
+E2F8,79733,E2F transcription factor 8,human,1,TF
+E4F1,1877,E4F transcription factor 1,human,5,TF
+EBF1,1879,early B-cell factor 1,human,0,TF
+EBF2,64641,early B-cell factor 2,human,0,TF
+EBF3,253738,early B-cell factor 3,human,1,TF
+EBF4,57593,early B-cell factor 4,human,0,TF
+EGR1,1958,early growth response 1,human,10,TF
+EGR2,1959,early growth response 2,human,14,TF
+EGR3,1960,early growth response 3,human,0,TF
+EGR4,1961,early growth response 4,human,0,TF
+EHF,26298,ets homologous factor,human,0,TF
+ELF1,1997,E74-like factor 1 (ets domain transcription factor),human,0,TF
+ELF2,1998,E74-like factor 2 (ets domain transcription factor),human,1,TF
+ELF3,1999,"E74-like factor 3 (ets domain transcription factor, epithelial-specific )",human,5,TF
+ELF4,2000,E74-like factor 4 (ets domain transcription factor),human,2,TF
+ELF5,2001,E74-like factor 5 (ets domain transcription factor),human,3,TF
+ELK1,2002,"ELK1, member of ETS oncogene family",human,12,TF
+ELK3,2004,"ELK3, ETS-domain protein (SRF accessory protein 2)",human,2,TF
+ELK4,2005,"ELK4, ETS-domain protein (SRF accessory protein 1)",human,2,TF
+ELMSAN1,91748,ELM2 and Myb/SANT-like domain containing 1,human,7,TF
+EMX1,2016,empty spiracles homeobox 1,human,0,TF
+EMX2,2018,empty spiracles homeobox 2,human,1,TF
+EN1,2019,engrailed homeobox 1,human,1,TF
+EN2,2020,engrailed homeobox 2,human,1,TF
+ENO1,2023,"enolase 1, (alpha)",human,35,TF
+EOMES,8320,eomesodermin,human,0,TF
+EPAS1,2034,endothelial PAS domain protein 1,human,50,TF
+ERF,2077,Ets2 repressor factor,human,4,TF
+ERG,2078,v-ets avian erythroblastosis virus E26 oncogene homolog,human,14,TF
+ESR1,2099,estrogen receptor 1,human,171,TF
+ESR2,2100,estrogen receptor 2 (ER beta),human,69,TF
+ESRRA,2101,estrogen related receptor alpha,human,13,TF
+ESRRB,2103,estrogen related receptor beta,human,3,TF
+ESRRG,2104,estrogen related receptor gamma,human,9,TF
+ESX1,80712,ESX homeobox 1,human,0,TF
+ETS1,2113,v-ets avian erythroblastosis virus E26 oncogene homolog 1,human,16,TF
+ETS2,2114,v-ets avian erythroblastosis virus E26 oncogene homolog 2,human,5,TF
+ETV1,2115,ets variant 1,human,7,TF
+ETV2,2116,ets variant 2,human,1,TF
+ETV3,2117,ets variant 3,human,3,TF
+ETV3L,440695,ets variant 3-like,human,0,TF
+ETV4,2118,ets variant 4,human,0,TF
+ETV5,2119,ets variant 5,human,1,TF
+ETV6,2120,ets variant 6,human,9,TF
+ETV7,51513,ets variant 7,human,1,TF
+EVX1,2128,even-skipped homeobox 1,human,1,TF
+EVX2,344191,even-skipped homeobox 2,human,0,TF
+EZH1,2145,enhancer of zeste 1 polycomb repressive complex 2 subunit,human,4,TF
+EZH2,2146,enhancer of zeste 2 polycomb repressive complex 2 subunit,human,69,TF
+FAM170A,340069,family with sequence similarity 170 member A,human,1,TF
+FERD3L,222894,Fer3-like bHLH transcription factor,human,0,TF
+FEV,54738,FEV (ETS oncogene family),human,0,TF
+FEZF1,389549,FEZ family zinc finger 1,human,0,TF
+FEZF2,55079,FEZ family zinc finger 2,human,1,TF
+FIGLA,344018,folliculogenesis specific bHLH transcription factor,human,0,TF
+FIZ1,84922,FLT3-interacting zinc finger 1,human,0,TF
+FLI1,2313,"Fli-1 proto-oncogene, ETS transcription factor",human,3,TF
+FOS,2353,FBJ murine osteosarcoma viral oncogene homolog,human,31,TF
+FOSB,2354,FBJ murine osteosarcoma viral oncogene homolog B,human,1,TF
+FOSL1,8061,FOS like antigen 1,human,4,TF
+FOSL2,2355,FOS like antigen 2,human,13,TF
+FOXA1,3169,forkhead box A1,human,6,TF
+FOXA2,3170,forkhead box A2,human,3,TF
+FOXA3,3171,forkhead box A3,human,7,TF
+FOXB1,27023,forkhead box B1,human,12,TF
+FOXB2,442425,forkhead box B2,human,0,TF
+FOXC1,2296,forkhead box C1,human,7,TF
+FOXC2,2303,forkhead box C2,human,5,TF
+FOXD1,2297,forkhead box D1,human,0,TF
+FOXD2,2306,forkhead box D2,human,0,TF
+FOXD3,27022,forkhead box D3,human,0,TF
+FOXD4,2298,forkhead box D4,human,1,TF
+FOXD4L1,200350,forkhead box D4-like 1,human,0,TF
+FOXD4L3,286380,forkhead box D4-like 3,human,0,TF
+FOXD4L4,349334,forkhead box D4-like 4,human,0,TF
+FOXD4L5,653427,forkhead box D4-like 5,human,0,TF
+FOXD4L6,653404,forkhead box D4-like 6,human,2,TF
+FOXE1,2304,forkhead box E1,human,9,TF
+FOXE3,2301,forkhead box E3,human,0,TF
+FOXF1,2294,forkhead box F1,human,0,TF
+FOXF2,2295,forkhead box F2,human,1,TF
+FOXG1,2290,forkhead box G1,human,10,TF
+FOXH1,8928,forkhead box H1,human,4,TF
+FOXI1,2299,forkhead box I1,human,2,TF
+FOXI2,399823,forkhead box I2,human,5,TF
+FOXI3,344167,forkhead box I3,human,0,TF
+FOXJ1,2302,forkhead box J1,human,0,TF
+FOXJ2,55810,forkhead box J2,human,9,TF
+FOXJ3,22887,forkhead box J3,human,3,TF
+FOXK1,221937,forkhead box K1,human,21,TF
+FOXK2,3607,forkhead box K2,human,30,TF
+FOXL1,2300,forkhead box L1,human,15,TF
+FOXL2,668,forkhead box L2,human,4,TF
+FOXM1,2305,forkhead box M1,human,13,TF
+FOXN1,8456,forkhead box N1,human,1,TF
+FOXN2,3344,forkhead box N2,human,5,TF
+FOXN3,1112,forkhead box N3,human,2,TF
+FOXN4,121643,forkhead box N4,human,0,TF
+FOXO1,2308,forkhead box O1,human,12,TF
+FOXO3,2309,forkhead box O3,human,22,TF
+FOXO4,4303,forkhead box O4,human,10,TF
+FOXO6,100132074,forkhead box O6,human,2,TF
+FOXP1,27086,forkhead box P1,human,3,TF
+FOXP2,93986,forkhead box P2,human,6,TF
+FOXP3,50943,forkhead box P3,human,17,TF
+FOXP4,116113,forkhead box P4,human,0,TF
+FOXQ1,94234,forkhead box Q1,human,13,TF
+FOXR1,283150,forkhead box R1,human,14,TF
+FOXR2,139628,forkhead box R2,human,15,TF
+FOXS1,2307,forkhead box S1,human,10,TF
+FUBP1,8880,far upstream element binding protein 1,human,12,TF
+FUBP3,8939,far upstream element (FUSE) binding protein 3,human,11,TF
+GABPA,2551,GA binding protein transcription factor alpha subunit,human,5,TF
+GABPB1,2553,"GA binding protein transcription factor, beta subunit 1",human,5,TF
+GABPB2,126626,"GA binding protein transcription factor, beta subunit 2",human,2,TF
+GATA1,2623,GATA binding protein 1 (globin transcription factor 1),human,19,TF
+GATA2,2624,GATA binding protein 2,human,11,TF
+GATA3,2625,GATA binding protein 3,human,18,TF
+GATA4,2626,GATA binding protein 4,human,4,TF
+GATA5,140628,GATA binding protein 5,human,0,TF
+GATA6,2627,GATA binding protein 6,human,2,TF
+GATAD1,57798,GATA zinc finger domain containing 1,human,9,TF
+GATAD2A,54815,GATA zinc finger domain containing 2A,human,8,TF
+GATAD2B,57459,GATA zinc finger domain containing 2B,human,16,TF
+GBX1,2636,gastrulation brain homeobox 1,human,0,TF
+GBX2,2637,gastrulation brain homeobox 2,human,0,TF
+GCFC2,6936,GC-rich sequence DNA-binding factor 2,human,9,TF
+GCM1,8521,glial cells missing homolog 1,human,7,TF
+GCM2,9247,glial cells missing homolog 2,human,1,TF
+GFI1,2672,growth factor independent 1 transcription repressor,human,6,TF
+GFI1B,8328,growth factor independent 1B transcription repressor,human,13,TF
+GLI1,2735,GLI family zinc finger 1,human,15,TF
+GLI2,2736,GLI family zinc finger 2,human,8,TF
+GLI3,2737,GLI family zinc finger 3,human,10,TF
+GLI4,2738,GLI family zinc finger 4,human,0,TF
+GLIS1,148979,GLIS family zinc finger 1,human,0,TF
+GLIS2,84662,GLIS family zinc finger 2,human,3,TF
+GLIS3,169792,GLIS family zinc finger 3,human,4,TF
+GMEB1,10691,glucocorticoid modulatory element binding protein 1,human,4,TF
+GMEB2,26205,glucocorticoid modulatory element binding protein 2,human,2,TF
+GON4L,54856,gon-4-like (C. elegans),human,0,TF
+GRHL1,29841,grainyhead like transcription factor 1,human,0,TF
+GRHL2,79977,grainyhead like transcription factor 2,human,0,TF
+GRHL3,57822,grainyhead like transcription factor 3,human,3,TF
+GSC,145258,goosecoid homeobox,human,0,TF
+GSC2,2928,goosecoid homeobox 2,human,0,TF
+GSX1,219409,GS homeobox 1,human,0,TF
+GSX2,170825,GS homeobox 2,human,0,TF
+GTF2I,2969,general transcription factor IIi,human,29,TF
+GTF3A,2971,general transcription factor IIIA,human,4,TF
+GZF1,64412,GDNF inducible zinc finger protein 1,human,2,TF
+HAND1,9421,heart and neural crest derivatives expressed 1,human,1,TF
+HAND2,9464,heart and neural crest derivatives expressed 2,human,2,TF
+HBP1,26959,HMG-box transcription factor 1,human,6,TF
+HDX,139324,highly divergent homeobox,human,1,TF
+HELT,391723,helt bHLH transcription factor,human,0,TF
+HES1,3280,hes family bHLH transcription factor 1,human,8,TF
+HES2,54626,hes family bHLH transcription factor 2,human,0,TF
+HES3,390992,hes family bHLH transcription factor 3,human,0,TF
+HES4,57801,hes family bHLH transcription factor 4,human,2,TF
+HES5,388585,hes family bHLH transcription factor 5,human,1,TF
+HES6,55502,hes family bHLH transcription factor 6,human,1,TF
+HES7,84667,hes family bHLH transcription factor 7,human,0,TF
+HESX1,8820,HESX homeobox 1,human,3,TF
+HEY1,23462,hes-related family bHLH transcription factor with YRPW motif 1,human,2,TF
+HEY2,23493,hes-related family bHLH transcription factor with YRPW motif 2,human,7,TF
+HEYL,26508,hes-related family bHLH transcription factor with YRPW motif-like,human,4,TF
+HHEX,3087,hematopoietically expressed homeobox,human,1,TF
+HIC1,3090,hypermethylated in cancer 1,human,11,TF
+HIC2,23119,hypermethylated in cancer 2,human,1,TF
+HIF1A,3091,"hypoxia inducible factor 1, alpha subunit (basic helix-loop-helix transcription factor)",human,57,TF
+HIF3A,64344,"hypoxia inducible factor 3, alpha subunit",human,9,TF
+HINFP,25988,histone H4 transcription factor,human,6,TF
+HIVEP1,3096,human immunodeficiency virus type I enhancer binding protein 1,human,9,TF
+HIVEP2,3097,human immunodeficiency virus type I enhancer binding protein 2,human,3,TF
+HIVEP3,59269,human immunodeficiency virus type I enhancer binding protein 3,human,3,TF
+HKR1,284459,"HKR1, GLI-Kruppel zinc finger family member",human,1,TF
+HLF,3131,hepatic leukemia factor,human,1,TF
+HLTF,6596,helicase-like transcription factor,human,11,TF
+HLX,3142,H2.0-like homeobox,human,3,TF
+HMBOX1,79618,homeobox containing 1,human,7,TF
+HMG20A,10363,high mobility group 20A,human,11,TF
+HMG20B,10362,high mobility group 20B,human,7,TF
+HMGA1,3159,high mobility group AT-hook 1,human,20,TF
+HMGA2,8091,high mobility group AT-hook 2,human,7,TF
+HMGXB3,22993,HMG-box containing 3,human,0,TF
+HMGXB4,10042,HMG-box containing 4,human,2,TF
+HMX1,3166,H6 family homeobox 1,human,0,TF
+HMX2,3167,H6 family homeobox 2,human,0,TF
+HMX3,340784,H6 family homeobox 3,human,0,TF
+HNF1A,6927,HNF1 homeobox A,human,11,TF
+HNF1B,6928,HNF1 homeobox B,human,1,TF
+HNF4A,3172,hepatocyte nuclear factor 4 alpha,human,30,TF
+HNF4G,3174,hepatocyte nuclear factor 4 gamma,human,8,TF
+HNRNPK,3190,heterogeneous nuclear ribonucleoprotein K,human,59,TF
+HOMEZ,57594,homeobox and leucine zipper encoding,human,8,TF
+HOPX,84525,HOP homeobox,human,2,TF
+HOXA1,3198,homeobox A1,human,13,TF
+HOXA10,3206,homeobox A10,human,3,TF
+HOXA11,3207,homeobox A11,human,2,TF
+HOXA13,3209,homeobox A13,human,1,TF
+HOXA2,3199,homeobox A2,human,0,TF
+HOXA3,3200,homeobox A3,human,0,TF
+HOXA4,3201,homeobox A4,human,0,TF
+HOXA5,3202,homeobox A5,human,3,TF
+HOXA6,3203,homeobox A6,human,0,TF
+HOXA7,3204,homeobox A7,human,1,TF
+HOXA9,3205,homeobox A9,human,5,TF
+HOXB1,3211,homeobox B1,human,7,TF
+HOXB13,10481,homeobox B13,human,2,TF
+HOXB2,3212,homeobox B2,human,0,TF
+HOXB3,3213,homeobox B3,human,1,TF
+HOXB4,3214,homeobox B4,human,1,TF
+HOXB5,3215,homeobox B5,human,9,TF
+HOXB6,3216,homeobox B6,human,2,TF
+HOXB7,3217,homeobox B7,human,2,TF
+HOXB8,3218,homeobox B8,human,0,TF
+HOXB9,3219,homeobox B9,human,8,TF
+HOXC10,3226,homeobox C10,human,1,TF
+HOXC11,3227,homeobox C11,human,2,TF
+HOXC12,3228,homeobox C12,human,0,TF
+HOXC13,3229,homeobox C13,human,1,TF
+HOXC4,3221,homeobox C4,human,5,TF
+HOXC5,3222,homeobox C5,human,0,TF
+HOXC6,3223,homeobox C6,human,4,TF
+HOXC8,3224,homeobox C8,human,2,TF
+HOXC9,3225,homeobox C9,human,4,TF
+HOXD1,3231,homeobox D1,human,0,TF
+HOXD10,3236,homeobox D10,human,1,TF
+HOXD11,3237,homeobox D11,human,1,TF
+HOXD12,3238,homeobox D12,human,0,TF
+HOXD13,3239,homeobox D13,human,0,TF
+HOXD3,3232,homeobox D3,human,1,TF
+HOXD4,3233,homeobox D4,human,3,TF
+HOXD8,3234,homeobox D8,human,1,TF
+HOXD9,3235,homeobox D9,human,1,TF
+HSF1,3297,heat shock transcription factor 1,human,19,TF
+HSF2,3298,heat shock transcription factor 2,human,11,TF
+HSF4,3299,heat shock transcription factor 4,human,2,TF
+HSF5,124535,heat shock transcription factor family member 5,human,0,TF
+HSFX1,100506164,"heat shock transcription factor family, X-linked 1",human,1,TF
+HSFY1,86614,"heat shock transcription factor, Y-linked 1",human,1,TF
+HSFY2,159119,"heat shock transcription factor, Y-linked 2",human,1,TF
+ID1,3397,"inhibitor of DNA binding 1, dominant negative helix-loop-helix protein",human,9,TF
+ID2,3398,"inhibitor of DNA binding 2, dominant negative helix-loop-helix protein",human,18,TF
+ID3,3399,"inhibitor of DNA binding 3, dominant negative helix-loop-helix protein",human,8,TF
+ID4,3400,"inhibitor of DNA binding 4, dominant negative helix-loop-helix protein",human,4,TF
+IFI16,3428,"interferon, gamma-inducible protein 16",human,64,TF
+IKZF1,10320,IKAROS family zinc finger 1,human,24,TF
+IKZF2,22807,IKAROS family zinc finger 2,human,9,TF
+IKZF3,22806,IKAROS family zinc finger 3,human,20,TF
+IKZF4,64375,IKAROS family zinc finger 4,human,8,TF
+IKZF5,64376,IKAROS family zinc finger 5,human,2,TF
+INSM1,3642,insulinoma associated 1,human,3,TF
+INSM2,84684,insulinoma-associated 2,human,0,TF
+IRF1,3659,interferon regulatory factor 1,human,9,TF
+IRF2,3660,interferon regulatory factor 2,human,13,TF
+IRF3,3661,interferon regulatory factor 3,human,13,TF
+IRF4,3662,interferon regulatory factor 4,human,4,TF
+IRF5,3663,interferon regulatory factor 5,human,7,TF
+IRF6,3664,interferon regulatory factor 6,human,0,TF
+IRF7,3665,interferon regulatory factor 7,human,7,TF
+IRF8,3394,interferon regulatory factor 8,human,5,TF
+IRF9,10379,interferon regulatory factor 9,human,1,TF
+IRX1,79192,iroquois homeobox 1,human,0,TF
+IRX2,153572,iroquois homeobox 2,human,0,TF
+IRX3,79191,iroquois homeobox 3,human,0,TF
+IRX4,50805,iroquois homeobox 4,human,0,TF
+IRX5,10265,iroquois homeobox 5,human,0,TF
+IRX6,79190,iroquois homeobox 6,human,0,TF
+ISL1,3670,ISL LIM homeobox 1,human,8,TF
+ISL2,64843,ISL LIM homeobox 2,human,3,TF
+ISX,91464,intestine specific homeobox,human,1,TF
+JARID2,3720,jumonji and AT-rich interaction domain containing 2,human,9,TF
+JAZF1,221895,JAZF zinc finger 1,human,1,TF
+JDP2,122953,Jun dimerization protein 2,human,8,TF
+JUN,3725,jun proto-oncogene,human,171,TF
+JUNB,3726,jun B proto-oncogene,human,8,TF
+JUND,3727,jun D proto-oncogene,human,7,TF
+KAT5,10524,K(lysine) acetyltransferase 5,human,69,TF
+KAT6A,7994,lysine acetyltransferase 6A,human,8,TF
+KAT6B,23522,lysine acetyltransferase 6B,human,4,TF
+KAT7,11143,lysine acetyltransferase 7,human,17,TF
+KAT8,84148,lysine acetyltransferase 8,human,16,TF
+KCMF1,56888,potassium channel modulatory factor 1,human,6,TF
+KCNIP3,30818,potassium voltage-gated channel interacting protein 3,human,6,TF
+KDM2A,22992,lysine demethylase 2A,human,2,TF
+KDM5A,5927,lysine demethylase 5A,human,11,TF
+KDM5B,10765,lysine demethylase 5B,human,17,TF
+KDM5C,8242,lysine demethylase 5C,human,10,TF
+KDM5D,8284,lysine demethylase 5D,human,0,TF
+KHSRP,8570,KH-type splicing regulatory protein,human,17,TF
+KIAA1549,57670,KIAA1549,human,2,TF
+KLF1,10661,Kruppel-like factor 1 (erythroid),human,6,TF
+KLF10,7071,Kruppel-like factor 10,human,6,TF
+KLF11,8462,Kruppel-like factor 11,human,6,TF
+KLF12,11278,Kruppel-like factor 12,human,2,TF
+KLF13,51621,Kruppel-like factor 13,human,3,TF
+KLF14,136259,Kruppel-like factor 14,human,0,TF
+KLF15,28999,Kruppel-like factor 15,human,3,TF
+KLF16,83855,Kruppel-like factor 16,human,6,TF
+KLF17,128209,Kruppel-like factor 17,human,0,TF
+KLF2,10365,Kruppel-like factor 2,human,5,TF
+KLF3,51274,Kruppel-like factor 3 (basic),human,6,TF
+KLF4,9314,Kruppel-like factor 4 (gut),human,9,TF
+KLF5,688,Kruppel-like factor 5 (intestinal),human,18,TF
+KLF6,1316,Kruppel-like factor 6,human,2,TF
+KLF7,8609,Kruppel-like factor 7 (ubiquitous),human,0,TF
+KLF8,11279,Kruppel-like factor 8,human,4,TF
+KLF9,687,Kruppel-like factor 9,human,1,TF
+KMT2A,4297,lysine methyltransferase 2A,human,35,TF
+KMT2B,9757,lysine methyltransferase 2B,human,8,TF
+KMT2C,58508,lysine methyltransferase 2C,human,10,TF
+KMT2E,55904,lysine methyltransferase 2E,human,4,TF
+L3MBTL1,26013,l(3)mbt-like 1 (Drosophila),human,7,TF
+L3MBTL2,83746,l(3)mbt-like 2 (Drosophila),human,10,TF
+L3MBTL3,84456,l(3)mbt-like 3 (Drosophila),human,12,TF
+L3MBTL4,91133,l(3)mbt-like 4 (Drosophila),human,0,TF
+LBX1,10660,ladybird homeobox 1,human,0,TF
+LBX2,85474,ladybird homeobox 2,human,0,TF
+LCOR,84458,ligand dependent nuclear receptor corepressor,human,7,TF
+LCORL,254251,ligand dependent nuclear receptor corepressor like,human,1,TF
+LEF1,51176,lymphoid enhancer binding factor 1,human,26,TF
+LEUTX,342900,leucine twenty homeobox,human,0,TF
+LHX1,3975,LIM homeobox 1,human,1,TF
+LHX2,9355,LIM homeobox 2,human,2,TF
+LHX3,8022,LIM homeobox 3,human,2,TF
+LHX4,89884,LIM homeobox 4,human,7,TF
+LHX5,64211,LIM homeobox 5,human,0,TF
+LHX6,26468,LIM homeobox 6,human,7,TF
+LHX8,431707,LIM homeobox 8,human,3,TF
+LHX9,56956,LIM homeobox 9,human,2,TF
+LMX1A,4009,"LIM homeobox transcription factor 1, alpha",human,0,TF
+LMX1B,4010,"LIM homeobox transcription factor 1, beta",human,3,TF
+LOC730110,730110,-,human,0,TF
+LRRFIP1,9208,leucine rich repeat (in FLII) interacting protein 1,human,4,TF
+LRRFIP2,9209,leucine rich repeat (in FLII) interacting protein 2,human,3,TF
+LYAR,55646,Ly1 antibody reactive,human,16,TF
+LYL1,4066,lymphoblastic leukemia associated hematopoiesis regulator 1,human,2,TF
+MAEL,84944,maelstrom spermatogenic transposon silencer,human,1,TF
+MAF,4094,v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog,human,3,TF
+MAF1,84232,"MAF1 homolog, negative regulator of RNA polymerase III",human,4,TF
+MAFA,389692,v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog A,human,0,TF
+MAFB,9935,v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog B,human,6,TF
+MAFF,23764,v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog F,human,4,TF
+MAFG,4097,v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog G,human,2,TF
+MAFK,7975,v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog K,human,3,TF
+MATR3,9782,matrin 3,human,40,TF
+MAX,4149,MYC associated factor X,human,22,TF
+MAZ,4150,MYC associated zinc finger protein,human,5,TF
+MBD1,4152,methyl-CpG binding domain protein 1,human,14,TF
+MBD2,8932,methyl-CpG binding domain protein 2,human,12,TF
+MBD3,53615,methyl-CpG binding domain protein 3,human,12,TF
+MBD3L1,85509,methyl-CpG binding domain protein 3-like 1,human,5,TF
+MBD3L2,125997,methyl-CpG binding domain protein 3-like 2,human,4,TF
+MBD4,8930,methyl-CpG binding domain 4 DNA glycosylase,human,6,TF
+MBD5,55777,methyl-CpG binding domain protein 5,human,1,TF
+MBD6,114785,methyl-CpG binding domain protein 6,human,0,TF
+MBNL3,55796,muscleblind like splicing regulator 3,human,0,TF
+MECOM,2122,MDS1 and EVI1 complex locus,human,11,TF
+MECP2,4204,methyl-CpG binding protein 2,human,11,TF
+MEF2A,4205,myocyte enhancer factor 2A,human,19,TF
+MEF2B,100271849,myocyte enhancer factor 2B,human,2,TF
+MEF2C,4208,myocyte enhancer factor 2C,human,10,TF
+MEF2D,4209,myocyte enhancer factor 2D,human,15,TF
+MEIS1,4211,Meis homeobox 1,human,8,TF
+MEIS2,4212,Meis homeobox 2,human,2,TF
+MEIS3,56917,Meis homeobox 3,human,0,TF
+MEIS3P1,4213,Meis homeobox 3 pseudogene 1,human,0,TF
+MEIS3P2,257468,Meis homeobox 3 pseudogene 2,human,0,TF
+MEOX1,4222,mesenchyme homeobox 1,human,5,TF
+MEOX2,4223,mesenchyme homeobox 2,human,17,TF
+MESP1,55897,mesoderm posterior bHLH transcription factor 1,human,0,TF
+MESP2,145873,mesoderm posterior bHLH transcription factor 2,human,0,TF
+MGA,23269,"MGA, MAX dimerization protein",human,11,TF
+MIER1,57708,MIER1 transcriptional regulator,human,6,TF
+MIER2,54531,MIER family member 2,human,11,TF
+MIER3,166968,MIER family member 3,human,2,TF
+MIS18BP1,55320,MIS18 binding protein 1,human,7,TF
+MITF,4286,microphthalmia-associated transcription factor,human,5,TF
+MIXL1,83881,Mix paired-like homeobox,human,0,TF
+MKX,283078,mohawk homeobox,human,3,TF
+MLLT1,4298,"myeloid/lymphoid or mixed-lineage leukemia; translocated to, 1",human,15,TF
+MLLT10,8028,"myeloid/lymphoid or mixed-lineage leukemia; translocated to, 10",human,2,TF
+MLLT11,10962,"myeloid/lymphoid or mixed-lineage leukemia; translocated to, 11",human,2,TF
+MLLT3,4300,"myeloid/lymphoid or mixed-lineage leukemia; translocated to, 3",human,16,TF
+MLLT4,4301,"myeloid/lymphoid or mixed-lineage leukemia; translocated to, 4",human,10,TF
+MLLT6,4302,"myeloid/lymphoid or mixed-lineage leukemia; translocated to, 6",human,5,TF
+MLX,6945,"MLX, MAX dimerization protein",human,4,TF
+MLXIP,22877,MLX interacting protein,human,3,TF
+MLXIPL,51085,MLX interacting protein-like,human,2,TF
+MNT,4335,MAX network transcriptional repressor,human,3,TF
+MNX1,3110,motor neuron and pancreas homeobox 1,human,1,TF
+MSC,9242,musculin,human,1,TF
+MSGN1,343930,mesogenin 1,human,0,TF
+MSX1,4487,msh homeobox 1,human,3,TF
+MSX2,4488,msh homeobox 2,human,2,TF
+MTA1,9112,metastasis associated 1,human,27,TF
+MTA2,9219,metastasis associated 1 family member 2,human,22,TF
+MTA3,57504,metastasis associated 1 family member 3,human,14,TF
+MTF1,4520,metal-regulatory transcription factor 1,human,0,TF
+MTF2,22823,metal response element binding transcription factor 2,human,12,TF
+MXD1,4084,MAX dimerization protein 1,human,11,TF
+MXD3,83463,MAX dimerization protein 3,human,1,TF
+MXD4,10608,MAX dimerization protein 4,human,1,TF
+MXI1,4601,"MAX interactor 1, dimerization protein",human,2,TF
+MYB,4602,v-myb avian myeloblastosis viral oncogene homolog,human,19,TF
+MYBL1,4603,v-myb avian myeloblastosis viral oncogene homolog-like 1,human,3,TF
+MYBL2,4605,v-myb avian myeloblastosis viral oncogene homolog-like 2,human,12,TF
+MYC,4609,v-myc avian myelocytomatosis viral oncogene homolog,human,135,TF
+MYCL,4610,v-myc avian myelocytomatosis viral oncogene lung carcinoma derived homolog,human,0,TF
+MYCLP1,4611,MYCL pseudogene 1,human,0,TF
+MYCN,4613,v-myc avian myelocytomatosis viral oncogene neuroblastoma derived homolog,human,8,TF
+MYF5,4617,myogenic factor 5,human,1,TF
+MYF6,4618,myogenic factor 6,human,1,TF
+MYNN,55892,myoneurin,human,3,TF
+MYOD1,4654,myogenic differentiation 1,human,15,TF
+MYOG,4656,myogenin (myogenic factor 4),human,5,TF
+MYRF,745,myelin regulatory factor,human,0,TF
+MYSM1,114803,"Myb-like, SWIRM and MPN domains 1",human,6,TF
+MYT1,4661,myelin transcription factor 1,human,3,TF
+MYT1L,23040,myelin transcription factor 1 like,human,1,TF
+MZF1,7593,myeloid zinc finger 1,human,2,TF
+NANOG,79923,Nanog homeobox,human,1,TF
+NANOGNB,360030,NANOG neighbor homeobox,human,0,TF
+NANOGP1,404635,Nanog homeobox pseudogene 1,human,0,TF
+NANOGP8,388112,Nanog homeobox pseudogene 8,human,0,TF
+NCOA1,8648,nuclear receptor coactivator 1,human,50,TF
+NCOA2,10499,nuclear receptor coactivator 2,human,41,TF
+NCOA3,8202,nuclear receptor coactivator 3,human,64,TF
+NCOA4,8031,nuclear receptor coactivator 4,human,5,TF
+NCOA5,57727,nuclear receptor coactivator 5,human,7,TF
+NCOA6,23054,nuclear receptor coactivator 6,human,21,TF
+NCOA7,135112,nuclear receptor coactivator 7,human,0,TF
+NCOR1,9611,nuclear receptor corepressor 1,human,39,TF
+NCOR2,9612,nuclear receptor corepressor 2,human,27,TF
+NEUROD1,4760,neuronal differentiation 1,human,1,TF
+NEUROD2,4761,neuronal differentiation 2,human,1,TF
+NEUROD4,58158,neuronal differentiation 4,human,0,TF
+NEUROD6,63974,neuronal differentiation 6,human,0,TF
+NEUROG1,4762,neurogenin 1,human,1,TF
+NEUROG2,63973,neurogenin 2,human,0,TF
+NEUROG3,50674,neurogenin 3,human,0,TF
+NFAT5,10725,"nuclear factor of activated T-cells 5, tonicity-responsive",human,2,TF
+NFATC1,4772,"nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 1",human,15,TF
+NFATC2,4773,"nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 2",human,12,TF
+NFATC3,4775,"nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 3",human,7,TF
+NFATC4,4776,"nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 4",human,7,TF
+NFE2,4778,"nuclear factor, erythroid 2",human,8,TF
+NFE2L1,4779,"nuclear factor, erythroid 2 like 1",human,7,TF
+NFE2L2,4780,"nuclear factor, erythroid 2 like 2",human,20,TF
+NFE2L3,9603,"nuclear factor, erythroid 2 like 3",human,2,TF
+NFIA,4774,nuclear factor I/A,human,1,TF
+NFIB,4781,nuclear factor I/B,human,1,TF
+NFIC,4782,nuclear factor I/C (CCAAT-binding transcription factor),human,3,TF
+NFIL3,4783,"nuclear factor, interleukin 3 regulated",human,1,TF
+NFIX,4784,nuclear factor I/X (CCAAT-binding transcription factor),human,3,TF
+NFKB1,4790,nuclear factor of kappa light polypeptide gene enhancer in B-cells 1,human,70,TF
+NFKB2,4791,nuclear factor of kappa light polypeptide gene enhancer in B-cells 2 (p49/p100),human,25,TF
+NFKBIA,4792,"nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha",human,52,TF
+NFKBIB,4793,"nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, beta",human,16,TF
+NFKBID,84807,"nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, delta",human,1,TF
+NFKBIE,4794,"nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, epsilon",human,13,TF
+NFKBIL1,4795,nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor-like 1,human,2,TF
+NFKBIZ,64332,"nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, zeta",human,0,TF
+NFRKB,4798,nuclear factor related to kappaB binding protein,human,14,TF
+NFX1,4799,"nuclear transcription factor, X-box binding 1",human,10,TF
+NFXL1,152518,"nuclear transcription factor, X-box binding-like 1",human,1,TF
+NFYA,4800,nuclear transcription factor Y subunit alpha,human,7,TF
+NFYB,4801,nuclear transcription factor Y subunit beta,human,7,TF
+NFYC,4802,nuclear transcription factor Y subunit gamma,human,4,TF
+NHLH1,4807,nescient helix-loop-helix 1,human,3,TF
+NHLH2,4808,nescient helix-loop-helix 2,human,1,TF
+NKRF,55922,NFKB repressing factor,human,9,TF
+NKX1-1,54729,NK1 homeobox 1,human,0,TF
+NKX1-2,390010,NK1 homeobox 2,human,0,TF
+NKX2-1,7080,NK2 homeobox 1,human,6,TF
+NKX2-2,4821,NK2 homeobox 2,human,2,TF
+NKX2-3,159296,NK2 homeobox 3,human,0,TF
+NKX2-4,644524,NK2 homeobox 4,human,1,TF
+NKX2-5,1482,NK2 homeobox 5,human,5,TF
+NKX2-6,137814,NK2 homeobox 6,human,0,TF
+NKX2-8,26257,NK2 homeobox 8,human,0,TF
+NKX3-1,4824,NK3 homeobox 1,human,5,TF
+NKX3-2,579,NK3 homeobox 2,human,4,TF
+NKX6-1,4825,NK6 homeobox 1,human,0,TF
+NKX6-2,84504,NK6 homeobox 2,human,0,TF
+NKX6-3,157848,NK6 homeobox 3,human,0,TF
+NOBOX,135935,NOBOX oogenesis homeobox,human,0,TF
+NOC3L,64318,NOC3 like DNA replication regulator,human,4,TF
+NOC4L,79050,nucleolar complex associated 4 homolog,human,9,TF
+NONO,4841,"non-POU domain containing, octamer-binding",human,29,TF
+NOTO,344022,notochord homeobox,human,0,TF
+NPAS1,4861,neuronal PAS domain protein 1,human,0,TF
+NPAS2,4862,neuronal PAS domain protein 2,human,3,TF
+NPAS3,64067,neuronal PAS domain protein 3,human,0,TF
+NPAS4,266743,neuronal PAS domain protein 4,human,0,TF
+NR0B1,190,nuclear receptor subfamily 0 group B member 1,human,3,TF
+NR0B2,8431,nuclear receptor subfamily 0 group B member 2,human,14,TF
+NR1D1,9572,nuclear receptor subfamily 1 group D member 1,human,3,TF
+NR1D2,9975,nuclear receptor subfamily 1 group D member 2,human,7,TF
+NR1H2,7376,nuclear receptor subfamily 1 group H member 2,human,13,TF
+NR1H3,10062,nuclear receptor subfamily 1 group H member 3,human,13,TF
+NR1H4,9971,nuclear receptor subfamily 1 group H member 4,human,9,TF
+NR1I2,8856,nuclear receptor subfamily 1 group I member 2,human,7,TF
+NR1I3,9970,nuclear receptor subfamily 1 group I member 3,human,12,TF
+NR2C1,7181,nuclear receptor subfamily 2 group C member 1,human,11,TF
+NR2C2,7182,nuclear receptor subfamily 2 group C member 2,human,13,TF
+NR2E1,7101,nuclear receptor subfamily 2 group E member 1,human,14,TF
+NR2E3,10002,nuclear receptor subfamily 2 group E member 3,human,8,TF
+NR2F1,7025,nuclear receptor subfamily 2 group F member 1,human,5,TF
+NR2F2,7026,nuclear receptor subfamily 2 group F member 2,human,7,TF
+NR2F6,2063,nuclear receptor subfamily 2 group F member 6,human,9,TF
+NR3C1,2908,nuclear receptor subfamily 3 group C member 1,human,42,TF
+NR3C2,4306,nuclear receptor subfamily 3 group C member 2,human,9,TF
+NR4A1,3164,nuclear receptor subfamily 4 group A member 1,human,28,TF
+NR4A2,4929,nuclear receptor subfamily 4 group A member 2,human,6,TF
+NR4A3,8013,nuclear receptor subfamily 4 group A member 3,human,1,TF
+NR5A1,2516,nuclear receptor subfamily 5 group A member 1,human,16,TF
+NR5A2,2494,nuclear receptor subfamily 5 group A member 2,human,7,TF
+NR6A1,2649,nuclear receptor subfamily 6 group A member 1,human,2,TF
+NRF1,4899,nuclear respiratory factor 1,human,6,TF
+NRL,4901,neural retina leucine zipper,human,1,TF
+OLIG1,116448,oligodendrocyte transcription factor 1,human,3,TF
+OLIG2,10215,oligodendrocyte lineage transcription factor 2,human,1,TF
+OLIG3,167826,oligodendrocyte transcription factor 3,human,2,TF
+ONECUT1,3175,one cut homeobox 1,human,1,TF
+ONECUT2,9480,one cut homeobox 2,human,0,TF
+ONECUT3,390874,one cut homeobox 3,human,0,TF
+OSR1,130497,odd-skipped related transciption factor 1,human,2,TF
+OSR2,116039,odd-skipped related transciption factor 2,human,0,TF
+OTP,23440,orthopedia homeobox,human,0,TF
+OTX1,5013,orthodenticle homeobox 1,human,5,TF
+OTX2,5015,orthodenticle homeobox 2,human,0,TF
+OVOL1,5017,ovo like zinc finger 1,human,3,TF
+OVOL2,58495,ovo like zinc finger 2,human,0,TF
+OVOL3,728361,ovo like zinc finger 3,human,0,TF
+PARP1,142,poly(ADP-ribose) polymerase 1,human,65,TF
+PARP12,64761,poly(ADP-ribose) polymerase family member 12,human,4,TF
+PATZ1,23598,POZ/BTB and AT hook containing zinc finger 1,human,0,TF
+PAWR,5074,"PRKC, apoptosis, WT1, regulator",human,7,TF
+PAX1,5075,paired box 1,human,0,TF
+PAX2,5076,paired box 2,human,7,TF
+PAX3,5077,paired box 3,human,6,TF
+PAX4,5078,paired box 4,human,1,TF
+PAX5,5079,paired box 5,human,2,TF
+PAX6,5080,paired box 6,human,11,TF
+PAX7,5081,paired box 7,human,4,TF
+PAX8,7849,paired box 8,human,2,TF
+PAX9,5083,paired box 9,human,5,TF
+PAXBP1,94104,PAX3 and PAX7 binding protein 1,human,2,TF
+PBRM1,55193,polybromo 1,human,7,TF
+PBX1,5087,pre-B-cell leukemia homeobox 1,human,13,TF
+PBX2,5089,pre-B-cell leukemia homeobox 2,human,5,TF
+PBX3,5090,pre-B-cell leukemia homeobox 3,human,1,TF
+PBX4,80714,pre-B-cell leukemia homeobox 4,human,0,TF
+PCBP1,5093,poly(rC) binding protein 1,human,29,TF
+PCBP2,5094,poly(rC) binding protein 2,human,30,TF
+PCBP3,54039,poly(rC) binding protein 3,human,4,TF
+PCBP4,57060,poly(rC) binding protein 4,human,2,TF
+PCGF6,84108,polycomb group ring finger 6,human,19,TF
+PDX1,3651,pancreatic and duodenal homeobox 1,human,2,TF
+PEG3,5178,paternally expressed 3,human,2,TF
+PGR,5241,progesterone receptor,human,17,TF
+PHB,5245,prohibitin,human,25,TF
+PHB2,11331,prohibitin 2,human,29,TF
+PHF20,51230,PHD finger protein 20,human,4,TF
+PHF5A,84844,PHD finger protein 5A,human,15,TF
+PHOX2A,401,paired like homeobox 2a,human,0,TF
+PHOX2B,8929,paired like homeobox 2b,human,0,TF
+PHTF1,10745,putative homeodomain transcription factor 1,human,0,TF
+PHTF2,57157,putative homeodomain transcription factor 2,human,0,TF
+PITX1,5307,paired like homeodomain 1,human,7,TF
+PITX2,5308,paired like homeodomain 2,human,5,TF
+PITX3,5309,paired like homeodomain 3,human,0,TF
+PKNOX1,5316,PBX/knotted 1 homeobox 1,human,6,TF
+PKNOX2,63876,PBX/knotted 1 homeobox 2,human,0,TF
+PLAG1,5324,PLAG1 zinc finger,human,0,TF
+PLAGL1,5325,PLAG1 like zinc finger 1,human,4,TF
+PLAGL2,5326,PLAG1 like zinc finger 2,human,1,TF
+PLEK,5341,pleckstrin,human,0,TF
+POGZ,23126,pogo transposable element with ZNF domain,human,11,TF
+POU1F1,5449,POU class 1 homeobox 1,human,1,TF
+POU2AF1,5450,POU class 2 associating factor 1,human,3,TF
+POU2F1,5451,POU class 2 homeobox 1,human,30,TF
+POU2F2,5452,POU class 2 homeobox 2,human,21,TF
+POU2F3,25833,POU class 2 homeobox 3,human,0,TF
+POU3F1,5453,POU class 3 homeobox 1,human,0,TF
+POU3F2,5454,POU class 3 homeobox 2,human,1,TF
+POU3F3,5455,POU class 3 homeobox 3,human,0,TF
+POU3F4,5456,POU class 3 homeobox 4,human,0,TF
+POU4F1,5457,POU class 4 homeobox 1,human,1,TF
+POU4F2,5458,POU class 4 homeobox 2,human,0,TF
+POU4F3,5459,POU class 4 homeobox 3,human,0,TF
+POU5F1,5460,POU class 5 homeobox 1,human,11,TF
+POU5F1B,5462,POU class 5 homeobox 1B,human,0,TF
+POU5F2,134187,"POU domain class 5, transcription factor 2",human,0,TF
+POU6F1,5463,POU class 6 homeobox 1,human,0,TF
+POU6F2,11281,POU class 6 homeobox 2,human,0,TF
+PPARA,5465,peroxisome proliferator activated receptor alpha,human,18,TF
+PPARD,5467,peroxisome proliferator activated receptor delta,human,10,TF
+PPARG,5468,peroxisome proliferator activated receptor gamma,human,65,TF
+PPP1R13L,10848,protein phosphatase 1 regulatory subunit 13 like,human,3,TF
+PRDM1,639,PR domain 1,human,10,TF
+PRDM10,56980,PR domain 10,human,0,TF
+PRDM11,56981,PR domain 11,human,0,TF
+PRDM12,59335,PR domain 12,human,0,TF
+PRDM13,59336,PR domain 13,human,0,TF
+PRDM14,63978,PR domain 14,human,7,TF
+PRDM15,63977,PR domain 15,human,0,TF
+PRDM16,63976,PR domain 16,human,0,TF
+PRDM2,7799,PR domain 2,human,2,TF
+PRDM4,11108,PR domain 4,human,4,TF
+PRDM5,11107,PR domain 5,human,2,TF
+PRDM6,93166,PR domain 6,human,6,TF
+PRDM7,11105,PR domain 7,human,0,TF
+PRDM8,56978,PR domain 8,human,0,TF
+PRDM9,56979,PR domain 9,human,0,TF
+PREB,10113,prolactin regulatory element binding,human,1,TF
+PROP1,5626,PROP paired-like homeobox 1,human,6,TF
+PROX1,5629,prospero homeobox 1,human,4,TF
+PROX2,283571,prospero homeobox 2,human,0,TF
+PRRX1,5396,paired related homeobox 1,human,0,TF
+PRRX2,51450,paired related homeobox 2,human,0,TF
+PSPC1,55269,paraspeckle component 1,human,7,TF
+PTF1A,256297,"pancreas specific transcription factor, 1a",human,2,TF
+PURA,5813,purine-rich element binding protein A,human,9,TF
+PURB,5814,purine-rich element binding protein B,human,6,TF
+PURG,29942,purine-rich element binding protein G,human,0,TF
+RARA,5914,retinoic acid receptor alpha,human,62,TF
+RARB,5915,retinoic acid receptor beta,human,16,TF
+RARG,5916,retinoic acid receptor gamma,human,19,TF
+RAX,30062,retina and anterior neural fold homeobox,human,0,TF
+RAX2,84839,retina and anterior neural fold homeobox 2,human,0,TF
+RBAK,57786,RB associated KRAB zinc finger,human,1,TF
+RBM22,55696,RNA binding motif protein 22,human,9,TF
+RBPJ,3516,recombination signal binding protein for immunoglobulin kappa J region,human,43,TF
+RBPJL,11317,recombination signal binding protein for immunoglobulin kappa J region-like,human,0,TF
+RC3H1,149041,ring finger and CCCH-type domains 1,human,7,TF
+RC3H2,54542,ring finger and CCCH-type domains 2,human,7,TF
+RCOR1,23186,REST corepressor 1,human,17,TF
+RCOR2,283248,REST corepressor 2,human,5,TF
+RCOR3,55758,REST corepressor 3,human,8,TF
+REL,5966,v-rel avian reticuloendotheliosis viral oncogene homolog,human,34,TF
+RELA,5970,v-rel avian reticuloendotheliosis viral oncogene homolog A,human,101,TF
+RELB,5971,v-rel avian reticuloendotheliosis viral oncogene homolog B,human,31,TF
+RERE,473,arginine-glutamic acid dipeptide (RE) repeats,human,11,TF
+REST,5978,RE1-silencing transcription factor,human,17,TF
+RFX1,5989,regulatory factor X1,human,4,TF
+RFX2,5990,regulatory factor X2,human,1,TF
+RFX3,5991,regulatory factor X3,human,3,TF
+RFX4,5992,regulatory factor X4,human,0,TF
+RFX5,5993,regulatory factor X5,human,6,TF
+RFX6,222546,regulatory factor X6,human,5,TF
+RFX7,64864,regulatory factor X7,human,1,TF
+RFX8,731220,"RFX family member 8, lacking RFX DNA binding domain",human,0,TF
+RFXANK,8625,regulatory factor X associated ankyrin containing protein,human,5,TF
+RFXAP,5994,regulatory factor X associated protein,human,2,TF
+RHOXF1,158800,Rhox homeobox family member 1,human,0,TF
+RHOXF2,84528,Rhox homeobox family member 2,human,13,TF
+RHOXF2B,727940,Rhox homeobox family member 2B,human,0,TF
+RLF,6018,rearranged L-myc fusion,human,1,TF
+RORA,6095,RAR related orphan receptor A,human,10,TF
+RORB,6096,RAR related orphan receptor B,human,7,TF
+RORC,6097,RAR related orphan receptor C,human,6,TF
+RREB1,6239,ras responsive element binding protein 1,human,8,TF
+RUNX1,861,runt related transcription factor 1,human,23,TF
+RUNX1T1,862,"runt related transcription factor 1; translocated to, 1 (cyclin D related)",human,12,TF
+RUNX2,860,runt related transcription factor 2,human,19,TF
+RUNX3,864,runt related transcription factor 3,human,15,TF
+RXRA,6256,retinoid X receptor alpha,human,76,TF
+RXRB,6257,retinoid X receptor beta,human,7,TF
+RXRG,6258,retinoid X receptor gamma,human,5,TF
+SALL1,6299,spalt-like transcription factor 1,human,3,TF
+SALL2,6297,spalt-like transcription factor 2,human,4,TF
+SALL3,27164,spalt-like transcription factor 3,human,1,TF
+SALL4,57167,spalt-like transcription factor 4,human,0,TF
+SATB1,6304,SATB homeobox 1,human,10,TF
+SATB2,23314,SATB homeobox 2,human,2,TF
+SCAPER,49855,S-phase cyclin A-associated protein in the ER,human,1,TF
+SCRT1,83482,scratch family zinc finger 1,human,0,TF
+SCRT2,85508,scratch family zinc finger 2,human,0,TF
+SCX,642658,scleraxis bHLH transcription factor,human,0,TF
+SEBOX,645832,SEBOX homeobox,human,0,TF
+SETBP1,26040,SET binding protein 1,human,3,TF
+SFPQ,6421,splicing factor proline/glutamine-rich,human,30,TF
+SHOX,6473,short stature homeobox,human,0,TF
+SHOX2,6474,short stature homeobox 2,human,1,TF
+SIM1,6492,single-minded family bHLH transcription factor 1,human,0,TF
+SIM2,6493,single-minded family bHLH transcription factor 2,human,2,TF
+SIX1,6495,SIX homeobox 1,human,6,TF
+SIX2,10736,SIX homeobox 2,human,0,TF
+SIX3,6496,SIX homeobox 3,human,2,TF
+SIX4,51804,SIX homeobox 4,human,1,TF
+SIX5,147912,SIX homeobox 5,human,1,TF
+SIX6,4990,SIX homeobox 6,human,2,TF
+SKI,6497,SKI proto-oncogene,human,30,TF
+SKIL,6498,SKI-like proto-oncogene,human,26,TF
+SKOR1,390598,SKI family transcriptional corepressor 1,human,0,TF
+SKOR2,652991,SKI family transcriptional corepressor 2,human,0,TF
+SLC30A9,10463,"solute carrier family 30 (zinc transporter), member 9",human,1,TF
+SMAD1,4086,SMAD family member 1,human,32,TF
+SMAD2,4087,SMAD family member 2,human,67,TF
+SMAD3,4088,SMAD family member 3,human,81,TF
+SMAD4,4089,SMAD family member 4,human,53,TF
+SMAD5,4090,SMAD family member 5,human,14,TF
+SMAD6,4091,SMAD family member 6,human,18,TF
+SMAD7,4092,SMAD family member 7,human,42,TF
+SMAD9,4093,SMAD family member 9,human,14,TF
+SMARCA1,6594,"SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 1",human,4,TF
+SMARCA2,6595,"SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 2",human,31,TF
+SMARCA4,6597,"SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 4",human,52,TF
+SMARCA5,8467,"SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 5",human,39,TF
+SMARCAD1,56916,"SWI/SNF-related, matrix-associated actin-dependent regulator of chromatin, subfamily a, containing DEAD/H box 1",human,24,TF
+SMARCAL1,50485,"SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a-like 1",human,0,TF
+SMARCB1,6598,"SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily b, member 1",human,26,TF
+SMARCC1,6599,"SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily c, member 1",human,28,TF
+SMARCC2,6601,"SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily c, member 2",human,24,TF
+SMARCD1,6602,"SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 1",human,17,TF
+SMARCD2,6603,"SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 2",human,5,TF
+SMARCD3,6604,"SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 3",human,4,TF
+SMARCE1,6605,"SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily e, member 1",human,26,TF
+SNAI1,6615,snail family zinc finger 1,human,22,TF
+SNAI2,6591,snail family zinc finger 2,human,6,TF
+SNAI3,333929,snail family zinc finger 3,human,3,TF
+SNAPC4,6621,small nuclear RNA activating complex polypeptide 4,human,25,TF
+SOHLH1,402381,spermatogenesis and oogenesis specific basic helix-loop-helix 1,human,0,TF
+SOHLH2,54937,spermatogenesis and oogenesis specific basic helix-loop-helix 2,human,0,TF
+SOX1,6656,SRY-box 1,human,1,TF
+SOX10,6663,SRY-box 10,human,2,TF
+SOX11,6664,SRY-box 11,human,0,TF
+SOX12,6666,SRY-box 12,human,0,TF
+SOX13,9580,SRY-box 13,human,3,TF
+SOX14,8403,SRY-box 14,human,0,TF
+SOX15,6665,SRY-box 15,human,0,TF
+SOX17,64321,SRY-box 17,human,1,TF
+SOX18,54345,SRY-box 18,human,0,TF
+SOX2,6657,SRY-box 2,human,57,TF
+SOX21,11166,SRY-box 21,human,0,TF
+SOX3,6658,SRY-box 3,human,2,TF
+SOX30,11063,SRY-box 30,human,1,TF
+SOX4,6659,SRY-box 4,human,6,TF
+SOX5,6660,SRY-box 5,human,5,TF
+SOX6,55553,SRY-box 6,human,4,TF
+SOX7,83595,SRY-box 7,human,2,TF
+SOX8,30812,SRY-box 8,human,1,TF
+SOX9,6662,SRY-box 9,human,5,TF
+SP1,6667,Sp1 transcription factor,human,69,TF
+SP100,6672,SP100 nuclear antigen,human,12,TF
+SP110,3431,SP110 nuclear body protein,human,1,TF
+SP140,11262,SP140 nuclear body protein,human,1,TF
+SP140L,93349,SP140 nuclear body protein like,human,1,TF
+SP2,6668,Sp2 transcription factor,human,1,TF
+SP3,6670,Sp3 transcription factor,human,4,TF
+SP4,6671,Sp4 transcription factor,human,0,TF
+SP5,389058,Sp5 transcription factor,human,0,TF
+SP6,80320,Sp6 transcription factor,human,2,TF
+SP7,121340,Sp7 transcription factor,human,2,TF
+SP8,221833,Sp8 transcription factor,human,0,TF
+SP9,100131390,Sp9 transcription factor,human,0,TF
+SPDEF,25803,SAM pointed domain containing ETS transcription factor,human,0,TF
+SPI1,6688,Spi-1 proto-oncogene,human,6,TF
+SPIB,6689,Spi-B transcription factor (Spi-1/PU.1 related),human,3,TF
+SPIC,121599,Spi-C transcription factor (Spi-1/PU.1 related),human,0,TF
+SPZ1,84654,spermatogenic leucine zipper 1,human,1,TF
+SREBF1,6720,sterol regulatory element binding transcription factor 1,human,25,TF
+SREBF2,6721,sterol regulatory element binding transcription factor 2,human,17,TF
+SRF,6722,serum response factor,human,13,TF
+SRY,6736,sex determining region Y,human,3,TF
+SSRP1,6749,structure specific recognition protein 1,human,36,TF
+ST18,9705,"suppression of tumorigenicity 18, zinc finger",human,0,TF
+STAT1,6772,signal transducer and activator of transcription 1,human,23,TF
+STAT2,6773,signal transducer and activator of transcription 2,human,3,TF
+STAT3,6774,signal transducer and activator of transcription 3 (acute-phase response factor),human,57,TF
+STAT4,6775,signal transducer and activator of transcription 4,human,3,TF
+STAT5A,6776,signal transducer and activator of transcription 5A,human,15,TF
+STAT5B,6777,signal transducer and activator of transcription 5B,human,11,TF
+STAT6,6778,"signal transducer and activator of transcription 6, interleukin-4 induced",human,8,TF
+T,6862,T brachyury transcription factor,human,0,TF
+TADA2A,6871,transcriptional adaptor 2A,human,42,TF
+TADA2B,93624,transcriptional adaptor 2B,human,16,TF
+TAF1,6872,TATA-box binding protein associated factor 1,human,34,TF
+TAL1,6886,T-cell acute lymphocytic leukemia 1,human,18,TF
+TAL2,6887,T-cell acute lymphocytic leukemia 2,human,4,TF
+TAX1BP1,8887,Tax1 (human T-cell leukemia virus type I) binding protein 1,human,17,TF
+TAX1BP3,30851,Tax1 (human T-cell leukemia virus type I) binding protein 3,human,4,TF
+TBP,6908,TATA-box binding protein,human,63,TF
+TBPL1,9519,TATA-box binding protein like 1,human,4,TF
+TBPL2,387332,TATA-box binding protein like 2,human,2,TF
+TBR1,10716,"T-box, brain 1",human,2,TF
+TBX1,6899,T-box 1,human,0,TF
+TBX10,347853,T-box 10,human,0,TF
+TBX15,6913,T-box 15,human,0,TF
+TBX18,9096,T-box 18,human,0,TF
+TBX19,9095,T-box 19,human,0,TF
+TBX2,6909,T-box 2,human,0,TF
+TBX20,57057,T-box 20,human,3,TF
+TBX21,30009,T-box 21,human,1,TF
+TBX22,50945,T-box 22,human,0,TF
+TBX3,6926,T-box 3,human,7,TF
+TBX4,9496,T-box 4,human,0,TF
+TBX5,6910,T-box 5,human,4,TF
+TBX6,6911,T-box 6,human,2,TF
+TCF12,6938,transcription factor 12,human,7,TF
+TCF15,6939,transcription factor 15 (basic helix-loop-helix),human,1,TF
+TCF19,6941,transcription factor 19,human,2,TF
+TCF20,6942,transcription factor 20 (AR1),human,11,TF
+TCF21,6943,transcription factor 21,human,0,TF
+TCF23,150921,transcription factor 23,human,0,TF
+TCF24,100129654,transcription factor 24,human,0,TF
+TCF25,22980,transcription factor 25 (basic helix-loop-helix),human,3,TF
+TCF3,6929,transcription factor 3,human,26,TF
+TCF4,6925,transcription factor 4,human,29,TF
+TCF7,6932,"transcription factor 7 (T-cell specific, HMG-box)",human,2,TF
+TCF7L1,83439,transcription factor 7 like 1,human,1,TF
+TCF7L2,6934,transcription factor 7 like 2,human,24,TF
+TCFL5,10732,transcription factor-like 5 (basic helix-loop-helix),human,0,TF
+TEAD1,7003,TEA domain transcription factor 1,human,5,TF
+TEAD2,8463,TEA domain transcription factor 2,human,8,TF
+TEAD3,7005,TEA domain transcription factor 3,human,7,TF
+TEAD4,7004,TEA domain transcription factor 4,human,6,TF
+TEF,7008,thyrotrophic embryonic factor,human,0,TF
+TERF1,7013,telomeric repeat binding factor (NIMA-interacting) 1,human,44,TF
+TERF2,7014,telomeric repeat binding factor 2,human,39,TF
+TET1,80312,tet methylcytosine dioxygenase 1,human,3,TF
+TET2,54790,tet methylcytosine dioxygenase 2,human,3,TF
+TET3,200424,tet methylcytosine dioxygenase 3,human,1,TF
+TFAM,7019,"transcription factor A, mitochondrial",human,8,TF
+TFAP2A,7020,transcription factor AP-2 alpha (activating enhancer binding protein 2 alpha),human,14,TF
+TFAP2B,7021,transcription factor AP-2 beta (activating enhancer binding protein 2 beta),human,5,TF
+TFAP2C,7022,transcription factor AP-2 gamma (activating enhancer binding protein 2 gamma),human,18,TF
+TFAP2D,83741,transcription factor AP-2 delta (activating enhancer binding protein 2 delta),human,0,TF
+TFAP2E,339488,transcription factor AP-2 epsilon (activating enhancer binding protein 2 epsilon),human,0,TF
+TFAP4,7023,transcription factor AP-4 (activating enhancer binding protein 4),human,19,TF
+TFB1M,51106,"transcription factor B1, mitochondrial",human,1,TF
+TFB2M,64216,"transcription factor B2, mitochondrial",human,2,TF
+TFCP2,7024,transcription factor CP2,human,23,TF
+TFCP2L1,29842,transcription factor CP2-like 1,human,0,TF
+TFDP1,7027,transcription factor Dp-1,human,11,TF
+TFDP2,7029,transcription factor Dp-2 (E2F dimerization partner 2),human,4,TF
+TFDP3,51270,transcription factor Dp family member 3,human,1,TF
+TFE3,7030,transcription factor binding to IGHM enhancer 3,human,7,TF
+TFEB,7942,transcription factor EB,human,1,TF
+TFEC,22797,transcription factor EC,human,0,TF
+TGIF1,7050,TGFB induced factor homeobox 1,human,10,TF
+TGIF2,60436,TGFB induced factor homeobox 2,human,1,TF
+TGIF2LX,90316,"TGFB induced factor homeobox 2 like, X-linked",human,0,TF
+TGIF2LY,90655,"TGFB induced factor homeobox 2 like, Y-linked",human,2,TF
+THAP1,55145,"THAP domain containing, apoptosis associated protein 1",human,15,TF
+THAP10,56906,THAP domain containing 10,human,0,TF
+THAP11,57215,THAP domain containing 11,human,9,TF
+THAP12,5612,THAP domain containing 12,human,1,TF
+THAP2,83591,"THAP domain containing, apoptosis associated protein 2",human,2,TF
+THAP3,90326,"THAP domain containing, apoptosis associated protein 3",human,2,TF
+THAP4,51078,THAP domain containing 4,human,0,TF
+THAP5,168451,THAP domain containing 5,human,0,TF
+THAP6,152815,THAP domain containing 6,human,0,TF
+THAP7,80764,THAP domain containing 7,human,8,TF
+THAP8,199745,THAP domain containing 8,human,3,TF
+THAP9,79725,THAP domain containing 9,human,0,TF
+THRA,7067,"thyroid hormone receptor, alpha",human,29,TF
+THRB,7068,"thyroid hormone receptor, beta",human,26,TF
+TLX1,3195,T-cell leukemia homeobox 1,human,2,TF
+TLX2,3196,T-cell leukemia homeobox 2,human,1,TF
+TLX3,30012,T-cell leukemia homeobox 3,human,5,TF
+TOE1,114034,"target of EGR1, member 1 (nuclear)",human,8,TF
+TONSL,4796,"tonsoku-like, DNA repair protein",human,7,TF
+TOPORS,10210,"topoisomerase I binding, arginine/serine-rich, E3 ubiquitin protein ligase",human,16,TF
+TOX,9760,thymocyte selection associated high mobility group box,human,0,TF
+TOX2,84969,TOX high mobility group box family member 2,human,0,TF
+TOX3,27324,TOX high mobility group box family member 3,human,0,TF
+TOX4,9878,TOX high mobility group box family member 4,human,4,TF
+TP53,7157,tumor protein p53,human,208,TF
+TP63,8626,tumor protein p63,human,25,TF
+TP73,7161,tumor protein p73,human,35,TF
+TPRX1,284355,tetra-peptide repeat homeobox 1,human,0,TF
+TPRXL,348825,tetra-peptide repeat homeobox-like,human,0,TF
+TRERF1,55809,transcriptional regulating factor 1,human,1,TF
+TRPS1,7227,trichorhinophalangeal syndrome I,human,7,TF
+TSC22D1,8848,TSC22 domain family member 1,human,18,TF
+TSC22D2,9819,TSC22 domain family member 2,human,1,TF
+TSC22D3,1831,TSC22 domain family member 3,human,11,TF
+TSC22D4,81628,TSC22 domain family member 4,human,18,TF
+TSHZ1,10194,teashirt zinc finger homeobox 1,human,1,TF
+TSHZ2,128553,teashirt zinc finger homeobox 2,human,3,TF
+TSHZ3,57616,teashirt zinc finger homeobox 3,human,3,TF
+TTF1,7270,"transcription termination factor, RNA polymerase I",human,22,TF
+TTF2,8458,"transcription termination factor, RNA polymerase II",human,6,TF
+TUB,7275,tubby bipartite transcription factor,human,2,TF
+TWIST1,7291,twist family bHLH transcription factor 1,human,9,TF
+TWIST2,117581,twist family bHLH transcription factor 2,human,1,TF
+UBP1,7342,upstream binding protein 1 (LBP-1a),human,4,TF
+UBTF,7343,"upstream binding transcription factor, RNA polymerase I",human,32,TF
+UBTFL1,642623,"upstream binding transcription factor, RNA polymerase I-like 1",human,0,TF
+UBTFL6,643615,"upstream binding transcription factor, RNA polymerase I-like 6 (pseudogene)",human,0,TF
+UNCX,340260,UNC homeobox,human,0,TF
+UNK,85451,unkempt family zinc finger,human,45,TF
+UNKL,64718,unkempt family like zinc finger,human,5,TF
+USF1,7391,upstream transcription factor 1,human,12,TF
+USF2,7392,"upstream transcription factor 2, c-fos interacting",human,4,TF
+USF3,205717,upstream transcription factor family member 3,human,0,TF
+UTF1,8433,undifferentiated embryonic cell transcription factor 1,human,0,TF
+VAX1,11023,ventral anterior homeobox 1,human,0,TF
+VAX2,25806,ventral anterior homeobox 2,human,0,TF
+VDR,7421,"vitamin D (1,25- dihydroxyvitamin D3) receptor",human,30,TF
+VENTX,27287,VENT homeobox,human,3,TF
+VEZF1,7716,vascular endothelial zinc finger 1,human,1,TF
+VSX1,30813,visual system homeobox 1,human,4,TF
+VSX2,338917,visual system homeobox 2,human,3,TF
+WDHD1,11169,WD repeat and HMG-box DNA binding protein 1,human,4,TF
+WHSC1,7468,Wolf-Hirschhorn syndrome candidate 1,human,23,TF
+WIZ,58525,widely interspaced zinc finger motifs,human,19,TF
+WT1,7490,Wilms tumor 1,human,6,TF
+XBP1,7494,X-box binding protein 1,human,7,TF
+YBX1,4904,Y-box binding protein 1,human,65,TF
+YBX2,51087,Y-box binding protein 2,human,1,TF
+YBX3,8531,Y-box binding protein 3,human,21,TF
+YEATS2,55689,YEATS domain containing 2,human,9,TF
+YEATS4,8089,YEATS domain containing 4,human,24,TF
+YY1,7528,YY1 transcription factor,human,46,TF
+YY2,404281,YY2 transcription factor,human,2,TF
+ZBED1,9189,zinc finger BED-type containing 1,human,9,TF
+ZBED2,79413,zinc finger BED-type containing 2,human,0,TF
+ZBED3,84327,zinc finger BED-type containing 3,human,1,TF
+ZBED4,9889,zinc finger BED-type containing 4,human,2,TF
+ZBED5,58486,zinc finger BED-type containing 5,human,0,TF
+ZBED6,100381270,"zinc finger, BED-type containing 6",human,0,TF
+ZBP1,81030,Z-DNA binding protein 1,human,6,TF
+ZBTB1,22890,zinc finger and BTB domain containing 1,human,17,TF
+ZBTB10,65986,zinc finger and BTB domain containing 10,human,3,TF
+ZBTB11,27107,zinc finger and BTB domain containing 11,human,1,TF
+ZBTB12,221527,zinc finger and BTB domain containing 12,human,0,TF
+ZBTB14,7541,zinc finger and BTB domain containing 14,human,6,TF
+ZBTB16,7704,zinc finger and BTB domain containing 16,human,24,TF
+ZBTB17,7709,zinc finger and BTB domain containing 17,human,3,TF
+ZBTB18,10472,zinc finger and BTB domain containing 18,human,2,TF
+ZBTB2,57621,zinc finger and BTB domain containing 2,human,3,TF
+ZBTB20,26137,zinc finger and BTB domain containing 20,human,2,TF
+ZBTB21,49854,zinc finger and BTB domain containing 21,human,0,TF
+ZBTB22,9278,zinc finger and BTB domain containing 22,human,4,TF
+ZBTB24,9841,zinc finger and BTB domain containing 24,human,5,TF
+ZBTB25,7597,zinc finger and BTB domain containing 25,human,10,TF
+ZBTB26,57684,zinc finger and BTB domain containing 26,human,2,TF
+ZBTB3,79842,zinc finger and BTB domain containing 3,human,5,TF
+ZBTB32,27033,zinc finger and BTB domain containing 32,human,7,TF
+ZBTB33,10009,zinc finger and BTB domain containing 33,human,9,TF
+ZBTB34,403341,zinc finger and BTB domain containing 34,human,0,TF
+ZBTB37,84614,zinc finger and BTB domain containing 37,human,0,TF
+ZBTB38,253461,zinc finger and BTB domain containing 38,human,7,TF
+ZBTB39,9880,zinc finger and BTB domain containing 39,human,1,TF
+ZBTB4,57659,zinc finger and BTB domain containing 4,human,4,TF
+ZBTB40,9923,zinc finger and BTB domain containing 40,human,0,TF
+ZBTB41,360023,zinc finger and BTB domain containing 41,human,0,TF
+ZBTB42,100128927,zinc finger and BTB domain containing 42,human,0,TF
+ZBTB43,23099,zinc finger and BTB domain containing 43,human,3,TF
+ZBTB44,29068,zinc finger and BTB domain containing 44,human,5,TF
+ZBTB45,84878,zinc finger and BTB domain containing 45,human,1,TF
+ZBTB46,140685,zinc finger and BTB domain containing 46,human,5,TF
+ZBTB47,92999,zinc finger and BTB domain containing 47,human,1,TF
+ZBTB48,3104,zinc finger and BTB domain containing 48,human,4,TF
+ZBTB49,166793,zinc finger and BTB domain containing 49,human,0,TF
+ZBTB5,9925,zinc finger and BTB domain containing 5,human,1,TF
+ZBTB6,10773,zinc finger and BTB domain containing 6,human,3,TF
+ZBTB7A,51341,zinc finger and BTB domain containing 7A,human,9,TF
+ZBTB7B,51043,zinc finger and BTB domain containing 7B,human,11,TF
+ZBTB7C,201501,zinc finger and BTB domain containing 7C,human,0,TF
+ZBTB8A,653121,zinc finger and BTB domain containing 8A,human,5,TF
+ZBTB9,221504,zinc finger and BTB domain containing 9,human,7,TF
+ZC3H10,84872,zinc finger CCCH-type containing 10,human,2,TF
+ZC3H11A,9877,zinc finger CCCH-type containing 11A,human,10,TF
+ZC3H12A,80149,zinc finger CCCH-type containing 12A,human,6,TF
+ZC3H12B,340554,zinc finger CCCH-type containing 12B,human,0,TF
+ZC3H13,23091,zinc finger CCCH-type containing 13,human,27,TF
+ZC3H14,79882,zinc finger CCCH-type containing 14,human,5,TF
+ZC3H15,55854,zinc finger CCCH-type containing 15,human,5,TF
+ZC3H18,124245,zinc finger CCCH-type containing 18,human,6,TF
+ZC3H3,23144,zinc finger CCCH-type containing 3,human,5,TF
+ZC3H4,23211,zinc finger CCCH-type containing 4,human,2,TF
+ZC3H6,376940,zinc finger CCCH-type containing 6,human,0,TF
+ZC3H7A,29066,zinc finger CCCH-type containing 7A,human,3,TF
+ZC3H7B,23264,zinc finger CCCH-type containing 7B,human,0,TF
+ZC3H8,84524,zinc finger CCCH-type containing 8,human,21,TF
+ZCCHC11,23318,zinc finger CCHC-type containing 11,human,4,TF
+ZCCHC6,79670,zinc finger CCHC-type containing 6,human,2,TF
+ZEB1,6935,zinc finger E-box binding homeobox 1,human,6,TF
+ZEB2,9839,zinc finger E-box binding homeobox 2,human,9,TF
+ZFAT,57623,zinc finger and AT-hook domain containing,human,2,TF
+ZFHX2,85446,zinc finger homeobox 2,human,0,TF
+ZFHX3,463,zinc finger homeobox 3,human,2,TF
+ZFHX4,79776,zinc finger homeobox 4,human,0,TF
+ZFP1,162239,ZFP1 zinc finger protein,human,2,TF
+ZFP14,57677,ZFP14 zinc finger protein,human,1,TF
+ZFP2,80108,ZFP2 zinc finger protein,human,1,TF
+ZFP28,140612,ZFP28 zinc finger protein,human,1,TF
+ZFP3,124961,ZFP3 zinc finger protein,human,0,TF
+ZFP30,22835,ZFP30 zinc finger protein,human,0,TF
+ZFP36L1,677,ZFP36 ring finger protein-like 1,human,5,TF
+ZFP36L2,678,ZFP36 ring finger protein-like 2,human,4,TF
+ZFP37,7539,ZFP37 zinc finger protein,human,0,TF
+ZFP41,286128,ZFP41 zinc finger protein,human,6,TF
+ZFP42,132625,ZFP42 zinc finger protein,human,4,TF
+ZFP57,346171,ZFP57 zinc finger protein,human,0,TF
+ZFP62,643836,ZFP62 zinc finger protein,human,1,TF
+ZFP64,55734,ZFP64 zinc finger protein,human,6,TF
+ZFP69,339559,ZFP69 zinc finger protein,human,0,TF
+ZFP69B,65243,ZFP69 zinc finger protein B,human,0,TF
+ZFP82,284406,ZFP82 zinc finger protein,human,1,TF
+ZFP90,146198,ZFP90 zinc finger protein,human,0,TF
+ZFP91,80829,ZFP91 zinc finger protein,human,2,TF
+ZFP92,139735,ZFP92 zinc finger protein,human,0,TF
+ZFPM1,161882,"zinc finger protein, FOG family member 1",human,3,TF
+ZFPM2,23414,"zinc finger protein, FOG family member 2",human,5,TF
+ZFX,7543,"zinc finger protein, X-linked",human,0,TF
+ZFY,7544,"zinc finger protein, Y-linked",human,1,TF
+ZFYVE26,23503,"zinc finger, FYVE domain containing 26",human,1,TF
+ZGLP1,100125288,"zinc finger, GATA-like protein 1",human,0,TF
+ZGPAT,84619,zinc finger CCCH-type and G-patch domain containing,human,10,TF
+ZHX1,11244,zinc fingers and homeoboxes 1,human,12,TF
+ZHX2,22882,zinc fingers and homeoboxes 2,human,1,TF
+ZHX3,23051,zinc fingers and homeoboxes 3,human,2,TF
+ZIC1,7545,Zic family member 1,human,0,TF
+ZIC2,7546,Zic family member 2,human,1,TF
+ZIC3,7547,Zic family member 3,human,1,TF
+ZIC4,84107,Zic family member 4,human,0,TF
+ZIC5,85416,Zic family member 5,human,0,TF
+ZIK1,284307,zinc finger protein interacting with K protein 1,human,0,TF
+ZIM2,23619,"zinc finger, imprinted 2",human,0,TF
+ZIM3,114026,"zinc finger, imprinted 3",human,0,TF
+ZKSCAN1,7586,zinc finger with KRAB and SCAN domains 1,human,1,TF
+ZKSCAN2,342357,zinc finger with KRAB and SCAN domains 2,human,0,TF
+ZKSCAN3,80317,zinc finger with KRAB and SCAN domains 3,human,0,TF
+ZKSCAN4,387032,zinc finger with KRAB and SCAN domains 4,human,2,TF
+ZKSCAN5,23660,zinc finger with KRAB and SCAN domains 5,human,1,TF
+ZKSCAN7,55888,zinc finger with KRAB and SCAN domains 7,human,4,TF
+ZKSCAN8,7745,zinc finger with KRAB and SCAN domains 8,human,1,TF
+ZMAT1,84460,zinc finger matrin-type 1,human,0,TF
+ZMAT2,153527,zinc finger matrin-type 2,human,2,TF
+ZMAT3,64393,zinc finger matrin-type 3,human,4,TF
+ZMAT4,79698,zinc finger matrin-type 4,human,1,TF
+ZMAT5,55954,zinc finger matrin-type 5,human,3,TF
+ZNF10,7556,zinc finger protein 10,human,2,TF
+ZNF100,163227,zinc finger protein 100,human,0,TF
+ZNF101,94039,zinc finger protein 101,human,1,TF
+ZNF106,64397,zinc finger protein 106,human,3,TF
+ZNF107,51427,zinc finger protein 107,human,1,TF
+ZNF112,7771,zinc finger protein 112,human,0,TF
+ZNF114,163071,zinc finger protein 114,human,3,TF
+ZNF117,51351,zinc finger protein 117,human,0,TF
+ZNF12,7559,zinc finger protein 12,human,0,TF
+ZNF121,7675,zinc finger protein 121,human,2,TF
+ZNF124,7678,zinc finger protein 124,human,1,TF
+ZNF131,7690,zinc finger protein 131,human,7,TF
+ZNF132,7691,zinc finger protein 132,human,0,TF
+ZNF133,7692,zinc finger protein 133,human,3,TF
+ZNF134,7693,zinc finger protein 134,human,0,TF
+ZNF135,7694,zinc finger protein 135,human,1,TF
+ZNF136,7695,zinc finger protein 136,human,1,TF
+ZNF137P,7696,"zinc finger protein 137, pseudogene",human,1,TF
+ZNF138,7697,zinc finger protein 138,human,1,TF
+ZNF14,7561,zinc finger protein 14,human,0,TF
+ZNF140,7699,zinc finger protein 140,human,1,TF
+ZNF141,7700,zinc finger protein 141,human,0,TF
+ZNF142,7701,zinc finger protein 142,human,1,TF
+ZNF143,7702,zinc finger protein 143,human,23,TF
+ZNF146,7705,zinc finger protein 146,human,0,TF
+ZNF148,7707,zinc finger protein 148,human,9,TF
+ZNF154,7710,zinc finger protein 154,human,0,TF
+ZNF155,7711,zinc finger protein 155,human,1,TF
+ZNF157,7712,zinc finger protein 157,human,0,TF
+ZNF16,7564,zinc finger protein 16,human,6,TF
+ZNF160,90338,zinc finger protein 160,human,1,TF
+ZNF165,7718,zinc finger protein 165,human,5,TF
+ZNF169,169841,zinc finger protein 169,human,1,TF
+ZNF17,7565,zinc finger protein 17,human,0,TF
+ZNF174,7727,zinc finger protein 174,human,1,TF
+ZNF175,7728,zinc finger protein 175,human,1,TF
+ZNF18,7566,zinc finger protein 18,human,1,TF
+ZNF180,7733,zinc finger protein 180,human,0,TF
+ZNF181,339318,zinc finger protein 181,human,0,TF
+ZNF182,7569,zinc finger protein 182,human,0,TF
+ZNF184,7738,zinc finger protein 184,human,1,TF
+ZNF189,7743,zinc finger protein 189,human,3,TF
+ZNF19,7567,zinc finger protein 19,human,0,TF
+ZNF195,7748,zinc finger protein 195,human,2,TF
+ZNF197,10168,zinc finger protein 197,human,1,TF
+ZNF2,7549,zinc finger protein 2,human,1,TF
+ZNF20,7568,zinc finger protein 20,human,0,TF
+ZNF200,7752,zinc finger protein 200,human,1,TF
+ZNF202,7753,zinc finger protein 202,human,1,TF
+ZNF205,7755,zinc finger protein 205,human,4,TF
+ZNF207,7756,zinc finger protein 207,human,5,TF
+ZNF208,7757,zinc finger protein 208,human,0,TF
+ZNF211,10520,zinc finger protein 211,human,0,TF
+ZNF212,7988,zinc finger protein 212,human,4,TF
+ZNF213,7760,zinc finger protein 213,human,1,TF
+ZNF214,7761,zinc finger protein 214,human,0,TF
+ZNF215,7762,zinc finger protein 215,human,0,TF
+ZNF217,7764,zinc finger protein 217,human,6,TF
+ZNF219,51222,zinc finger protein 219,human,12,TF
+ZNF22,7570,zinc finger protein 22,human,2,TF
+ZNF221,7638,zinc finger protein 221,human,0,TF
+ZNF223,7766,zinc finger protein 223,human,1,TF
+ZNF224,7767,zinc finger protein 224,human,1,TF
+ZNF225,7768,zinc finger protein 225,human,0,TF
+ZNF226,7769,zinc finger protein 226,human,1,TF
+ZNF227,7770,zinc finger protein 227,human,2,TF
+ZNF229,7772,zinc finger protein 229,human,0,TF
+ZNF23,7571,zinc finger protein 23,human,1,TF
+ZNF230,7773,zinc finger protein 230,human,1,TF
+ZNF232,7775,zinc finger protein 232,human,0,TF
+ZNF233,353355,zinc finger protein 233,human,0,TF
+ZNF234,10780,zinc finger protein 234,human,0,TF
+ZNF235,9310,zinc finger protein 235,human,0,TF
+ZNF236,7776,zinc finger protein 236,human,0,TF
+ZNF239,8187,zinc finger protein 239,human,1,TF
+ZNF24,7572,zinc finger protein 24,human,11,TF
+ZNF248,57209,zinc finger protein 248,human,0,TF
+ZNF25,219749,zinc finger protein 25,human,0,TF
+ZNF250,58500,zinc finger protein 250,human,6,TF
+ZNF251,90987,zinc finger protein 251,human,1,TF
+ZNF252P,286101,"zinc finger protein 252, pseudogene",human,0,TF
+ZNF253,56242,zinc finger protein 253,human,0,TF
+ZNF254,9534,zinc finger protein 254,human,0,TF
+ZNF256,10172,zinc finger protein 256,human,0,TF
+ZNF257,113835,zinc finger protein 257,human,0,TF
+ZNF26,7574,zinc finger protein 26,human,0,TF
+ZNF260,339324,zinc finger protein 260,human,0,TF
+ZNF263,10127,zinc finger protein 263,human,4,TF
+ZNF264,9422,zinc finger protein 264,human,3,TF
+ZNF266,10781,zinc finger protein 266,human,1,TF
+ZNF267,10308,zinc finger protein 267,human,1,TF
+ZNF268,10795,zinc finger protein 268,human,0,TF
+ZNF271P,10778,"zinc finger protein 271, pseudogene",human,0,TF
+ZNF273,10793,zinc finger protein 273,human,1,TF
+ZNF274,10782,zinc finger protein 274,human,1,TF
+ZNF275,10838,zinc finger protein 275,human,0,TF
+ZNF276,92822,zinc finger protein 276,human,0,TF
+ZNF277,11179,zinc finger protein 277,human,0,TF
+ZNF28,7576,zinc finger protein 28,human,0,TF
+ZNF280A,129025,zinc finger protein 280A,human,1,TF
+ZNF280B,140883,zinc finger protein 280B,human,1,TF
+ZNF280C,55609,zinc finger protein 280C,human,2,TF
+ZNF280D,54816,zinc finger protein 280D,human,3,TF
+ZNF281,23528,zinc finger protein 281,human,4,TF
+ZNF282,8427,zinc finger protein 282,human,1,TF
+ZNF283,284349,zinc finger protein 283,human,1,TF
+ZNF284,342909,zinc finger protein 284,human,0,TF
+ZNF285,26974,zinc finger protein 285,human,0,TF
+ZNF286A,57335,zinc finger protein 286A,human,1,TF
+ZNF286B,729288,zinc finger protein 286B,human,0,TF
+ZNF287,57336,zinc finger protein 287,human,0,TF
+ZNF292,23036,zinc finger protein 292,human,0,TF
+ZNF296,162979,zinc finger protein 296,human,0,TF
+ZNF3,7551,zinc finger protein 3,human,1,TF
+ZNF30,90075,zinc finger protein 30,human,0,TF
+ZNF300,91975,zinc finger protein 300,human,0,TF
+ZNF302,55900,zinc finger protein 302,human,3,TF
+ZNF304,57343,zinc finger protein 304,human,0,TF
+ZNF311,282890,zinc finger protein 311,human,0,TF
+ZNF316,100131017,zinc finger protein 316,human,0,TF
+ZNF317,57693,zinc finger protein 317,human,1,TF
+ZNF318,24149,zinc finger protein 318,human,5,TF
+ZNF319,57567,zinc finger protein 319,human,0,TF
+ZNF32,7580,zinc finger protein 32,human,0,TF
+ZNF320,162967,zinc finger protein 320,human,0,TF
+ZNF322,79692,zinc finger protein 322,human,0,TF
+ZNF324,25799,zinc finger protein 324,human,2,TF
+ZNF324B,388569,zinc finger protein 324B,human,1,TF
+ZNF326,284695,zinc finger protein 326,human,11,TF
+ZNF329,79673,zinc finger protein 329,human,1,TF
+ZNF331,55422,zinc finger protein 331,human,1,TF
+ZNF333,84449,zinc finger protein 333,human,1,TF
+ZNF334,55713,zinc finger protein 334,human,0,TF
+ZNF335,63925,zinc finger protein 335,human,6,TF
+ZNF337,26152,zinc finger protein 337,human,2,TF
+ZNF33A,7581,zinc finger protein 33A,human,2,TF
+ZNF33B,7582,zinc finger protein 33B,human,1,TF
+ZNF34,80778,zinc finger protein 34,human,1,TF
+ZNF341,84905,zinc finger protein 341,human,0,TF
+ZNF343,79175,zinc finger protein 343,human,0,TF
+ZNF345,25850,zinc finger protein 345,human,0,TF
+ZNF346,23567,zinc finger protein 346,human,6,TF
+ZNF347,84671,zinc finger protein 347,human,0,TF
+ZNF35,7584,zinc finger protein 35,human,0,TF
+ZNF350,59348,zinc finger protein 350,human,3,TF
+ZNF354A,6940,zinc finger protein 354A,human,1,TF
+ZNF354B,117608,zinc finger protein 354B,human,0,TF
+ZNF354C,30832,zinc finger protein 354C,human,0,TF
+ZNF355P,100505852,"zinc finger protein 355, pseudogene",human,0,TF
+ZNF358,140467,zinc finger protein 358,human,0,TF
+ZNF362,149076,zinc finger protein 362,human,1,TF
+ZNF365,22891,zinc finger protein 365,human,0,TF
+ZNF366,167465,zinc finger protein 366,human,2,TF
+ZNF367,195828,zinc finger protein 367,human,0,TF
+ZNF37A,7587,zinc finger protein 37A,human,0,TF
+ZNF382,84911,zinc finger protein 382,human,1,TF
+ZNF383,163087,zinc finger protein 383,human,1,TF
+ZNF384,171017,zinc finger protein 384,human,2,TF
+ZNF385A,25946,zinc finger protein 385A,human,1,TF
+ZNF385B,151126,zinc finger protein 385B,human,1,TF
+ZNF385C,201181,zinc finger protein 385C,human,1,TF
+ZNF385D,79750,zinc finger protein 385D,human,0,TF
+ZNF391,346157,zinc finger protein 391,human,0,TF
+ZNF394,84124,zinc finger protein 394,human,1,TF
+ZNF395,55893,zinc finger protein 395,human,5,TF
+ZNF396,252884,zinc finger protein 396,human,2,TF
+ZNF397,84307,zinc finger protein 397,human,3,TF
+ZNF398,57541,zinc finger protein 398,human,0,TF
+ZNF404,342908,zinc finger protein 404,human,0,TF
+ZNF407,55628,zinc finger protein 407,human,1,TF
+ZNF408,79797,zinc finger protein 408,human,7,TF
+ZNF41,7592,zinc finger protein 41,human,0,TF
+ZNF410,57862,zinc finger protein 410,human,1,TF
+ZNF414,84330,zinc finger protein 414,human,3,TF
+ZNF415,55786,zinc finger protein 415,human,0,TF
+ZNF416,55659,zinc finger protein 416,human,0,TF
+ZNF417,147687,zinc finger protein 417,human,4,TF
+ZNF418,147686,zinc finger protein 418,human,0,TF
+ZNF419,79744,zinc finger protein 419,human,0,TF
+ZNF420,147923,zinc finger protein 420,human,4,TF
+ZNF423,23090,zinc finger protein 423,human,3,TF
+ZNF425,155054,zinc finger protein 425,human,0,TF
+ZNF426,79088,zinc finger protein 426,human,3,TF
+ZNF428,126299,zinc finger protein 428,human,0,TF
+ZNF429,353088,zinc finger protein 429,human,0,TF
+ZNF43,7594,zinc finger protein 43,human,0,TF
+ZNF430,80264,zinc finger protein 430,human,0,TF
+ZNF431,170959,zinc finger protein 431,human,0,TF
+ZNF432,9668,zinc finger protein 432,human,0,TF
+ZNF433,163059,zinc finger protein 433,human,1,TF
+ZNF436,80818,zinc finger protein 436,human,4,TF
+ZNF438,220929,zinc finger protein 438,human,0,TF
+ZNF439,90594,zinc finger protein 439,human,2,TF
+ZNF44,51710,zinc finger protein 44,human,0,TF
+ZNF440,126070,zinc finger protein 440,human,1,TF
+ZNF441,126068,zinc finger protein 441,human,0,TF
+ZNF442,79973,zinc finger protein 442,human,0,TF
+ZNF443,10224,zinc finger protein 443,human,0,TF
+ZNF444,55311,zinc finger protein 444,human,3,TF
+ZNF445,353274,zinc finger protein 445,human,0,TF
+ZNF446,55663,zinc finger protein 446,human,4,TF
+ZNF449,203523,zinc finger protein 449,human,1,TF
+ZNF45,7596,zinc finger protein 45,human,1,TF
+ZNF451,26036,zinc finger protein 451,human,10,TF
+ZNF454,285676,zinc finger protein 454,human,0,TF
+ZNF460,10794,zinc finger protein 460,human,3,TF
+ZNF461,92283,zinc finger protein 461,human,2,TF
+ZNF462,58499,zinc finger protein 462,human,3,TF
+ZNF467,168544,zinc finger protein 467,human,0,TF
+ZNF468,90333,zinc finger protein 468,human,1,TF
+ZNF469,84627,zinc finger protein 469,human,0,TF
+ZNF470,388566,zinc finger protein 470,human,0,TF
+ZNF471,57573,zinc finger protein 471,human,0,TF
+ZNF473,25888,zinc finger protein 473,human,0,TF
+ZNF474,133923,zinc finger protein 474,human,0,TF
+ZNF479,90827,zinc finger protein 479,human,0,TF
+ZNF48,197407,zinc finger protein 48,human,0,TF
+ZNF480,147657,zinc finger protein 480,human,1,TF
+ZNF483,158399,zinc finger protein 483,human,1,TF
+ZNF484,83744,zinc finger protein 484,human,0,TF
+ZNF485,220992,zinc finger protein 485,human,0,TF
+ZNF486,90649,zinc finger protein 486,human,0,TF
+ZNF487,642819,zinc finger protein 487,human,0,TF
+ZNF488,118738,zinc finger protein 488,human,2,TF
+ZNF490,57474,zinc finger protein 490,human,2,TF
+ZNF491,126069,zinc finger protein 491,human,0,TF
+ZNF492,57615,zinc finger protein 492,human,0,TF
+ZNF493,284443,zinc finger protein 493,human,0,TF
+ZNF496,84838,zinc finger protein 496,human,5,TF
+ZNF497,162968,zinc finger protein 497,human,0,TF
+ZNF500,26048,zinc finger protein 500,human,0,TF
+ZNF501,115560,zinc finger protein 501,human,0,TF
+ZNF502,91392,zinc finger protein 502,human,0,TF
+ZNF503,84858,zinc finger protein 503,human,2,TF
+ZNF506,440515,zinc finger protein 506,human,0,TF
+ZNF507,22847,zinc finger protein 507,human,0,TF
+ZNF510,22869,zinc finger protein 510,human,4,TF
+ZNF511,118472,zinc finger protein 511,human,0,TF
+ZNF512,84450,zinc finger protein 512,human,3,TF
+ZNF512B,57473,zinc finger protein 512B,human,12,TF
+ZNF513,130557,zinc finger protein 513,human,1,TF
+ZNF514,84874,zinc finger protein 514,human,0,TF
+ZNF516,9658,zinc finger protein 516,human,5,TF
+ZNF517,340385,zinc finger protein 517,human,0,TF
+ZNF518A,9849,zinc finger protein 518A,human,3,TF
+ZNF518B,85460,zinc finger protein 518B,human,0,TF
+ZNF519,162655,zinc finger protein 519,human,0,TF
+ZNF521,25925,zinc finger protein 521,human,2,TF
+ZNF524,147807,zinc finger protein 524,human,3,TF
+ZNF526,116115,zinc finger protein 526,human,0,TF
+ZNF527,84503,zinc finger protein 527,human,0,TF
+ZNF528,84436,zinc finger protein 528,human,0,TF
+ZNF529,57711,zinc finger protein 529,human,0,TF
+ZNF530,348327,zinc finger protein 530,human,0,TF
+ZNF532,55205,zinc finger protein 532,human,1,TF
+ZNF534,147658,zinc finger protein 534,human,0,TF
+ZNF536,9745,zinc finger protein 536,human,1,TF
+ZNF540,163255,zinc finger protein 540,human,0,TF
+ZNF541,84215,zinc finger protein 541,human,0,TF
+ZNF542P,147947,"zinc finger protein 542, pseudogene",human,0,TF
+ZNF543,125919,zinc finger protein 543,human,0,TF
+ZNF544,27300,zinc finger protein 544,human,0,TF
+ZNF546,339327,zinc finger protein 546,human,0,TF
+ZNF547,284306,zinc finger protein 547,human,0,TF
+ZNF548,147694,zinc finger protein 548,human,0,TF
+ZNF549,256051,zinc finger protein 549,human,0,TF
+ZNF550,162972,zinc finger protein 550,human,0,TF
+ZNF552,79818,zinc finger protein 552,human,2,TF
+ZNF554,115196,zinc finger protein 554,human,1,TF
+ZNF555,148254,zinc finger protein 555,human,0,TF
+ZNF556,80032,zinc finger protein 556,human,0,TF
+ZNF557,79230,zinc finger protein 557,human,6,TF
+ZNF558,148156,zinc finger protein 558,human,0,TF
+ZNF559,84527,zinc finger protein 559,human,1,TF
+ZNF56,7608,zinc finger protein 56,human,0,TF
+ZNF560,147741,zinc finger protein 560,human,0,TF
+ZNF561,93134,zinc finger protein 561,human,1,TF
+ZNF562,54811,zinc finger protein 562,human,3,TF
+ZNF563,147837,zinc finger protein 563,human,0,TF
+ZNF564,163050,zinc finger protein 564,human,3,TF
+ZNF565,147929,zinc finger protein 565,human,0,TF
+ZNF566,84924,zinc finger protein 566,human,1,TF
+ZNF567,163081,zinc finger protein 567,human,1,TF
+ZNF568,374900,zinc finger protein 568,human,2,TF
+ZNF569,148266,zinc finger protein 569,human,1,TF
+ZNF57,126295,zinc finger protein 57,human,5,TF
+ZNF570,148268,zinc finger protein 570,human,0,TF
+ZNF571,51276,zinc finger protein 571,human,0,TF
+ZNF572,137209,zinc finger protein 572,human,0,TF
+ZNF573,126231,zinc finger protein 573,human,0,TF
+ZNF574,64763,zinc finger protein 574,human,0,TF
+ZNF575,284346,zinc finger protein 575,human,0,TF
+ZNF576,79177,zinc finger protein 576,human,1,TF
+ZNF577,84765,zinc finger protein 577,human,0,TF
+ZNF578,147660,zinc finger protein 578,human,1,TF
+ZNF579,163033,zinc finger protein 579,human,1,TF
+ZNF580,51157,zinc finger protein 580,human,0,TF
+ZNF581,51545,zinc finger protein 581,human,4,TF
+ZNF582,147948,zinc finger protein 582,human,0,TF
+ZNF583,147949,zinc finger protein 583,human,0,TF
+ZNF584,201514,zinc finger protein 584,human,0,TF
+ZNF585A,199704,zinc finger protein 585A,human,1,TF
+ZNF585B,92285,zinc finger protein 585B,human,1,TF
+ZNF586,54807,zinc finger protein 586,human,0,TF
+ZNF587,84914,zinc finger protein 587,human,1,TF
+ZNF589,51385,zinc finger protein 589,human,0,TF
+ZNF592,9640,zinc finger protein 592,human,6,TF
+ZNF593,51042,zinc finger protein 593,human,1,TF
+ZNF594,84622,zinc finger protein 594,human,1,TF
+ZNF595,152687,zinc finger protein 595,human,0,TF
+ZNF596,169270,zinc finger protein 596,human,0,TF
+ZNF597,146434,zinc finger protein 597,human,2,TF
+ZNF598,90850,zinc finger protein 598,human,3,TF
+ZNF599,148103,zinc finger protein 599,human,0,TF
+ZNF600,162966,zinc finger protein 600,human,0,TF
+ZNF605,100289635,zinc finger protein 605,human,1,TF
+ZNF606,80095,zinc finger protein 606,human,0,TF
+ZNF607,84775,zinc finger protein 607,human,1,TF
+ZNF608,57507,zinc finger protein 608,human,2,TF
+ZNF609,23060,zinc finger protein 609,human,5,TF
+ZNF610,162963,zinc finger protein 610,human,0,TF
+ZNF611,81856,zinc finger protein 611,human,0,TF
+ZNF613,79898,zinc finger protein 613,human,0,TF
+ZNF614,80110,zinc finger protein 614,human,1,TF
+ZNF615,284370,zinc finger protein 615,human,0,TF
+ZNF616,90317,zinc finger protein 616,human,0,TF
+ZNF618,114991,zinc finger protein 618,human,0,TF
+ZNF619,285267,zinc finger protein 619,human,1,TF
+ZNF620,253639,zinc finger protein 620,human,1,TF
+ZNF621,285268,zinc finger protein 621,human,1,TF
+ZNF622,90441,zinc finger protein 622,human,4,TF
+ZNF623,9831,zinc finger protein 623,human,0,TF
+ZNF624,57547,zinc finger protein 624,human,0,TF
+ZNF625,90589,zinc finger protein 625,human,1,TF
+ZNF626,199777,zinc finger protein 626,human,1,TF
+ZNF627,199692,zinc finger protein 627,human,0,TF
+ZNF628,89887,zinc finger protein 628,human,0,TF
+ZNF629,23361,zinc finger protein 629,human,0,TF
+ZNF639,51193,zinc finger protein 639,human,0,TF
+ZNF641,121274,zinc finger protein 641,human,1,TF
+ZNF644,84146,zinc finger protein 644,human,7,TF
+ZNF645,158506,zinc finger protein 645,human,1,TF
+ZNF646,9726,zinc finger protein 646,human,4,TF
+ZNF648,127665,zinc finger protein 648,human,0,TF
+ZNF649,65251,zinc finger protein 649,human,2,TF
+ZNF652,22834,zinc finger protein 652,human,2,TF
+ZNF653,115950,zinc finger protein 653,human,0,TF
+ZNF654,55279,zinc finger protein 654,human,0,TF
+ZNF655,79027,zinc finger protein 655,human,4,TF
+ZNF658,26149,zinc finger protein 658,human,0,TF
+ZNF658B,401509,zinc finger protein 658B (pseudogene),human,1,TF
+ZNF66,7617,zinc finger protein 66,human,0,TF
+ZNF660,285349,zinc finger protein 660,human,0,TF
+ZNF662,389114,zinc finger protein 662,human,1,TF
+ZNF663P,100130934,"zinc finger protein 663, pseudogene",human,0,TF
+ZNF664,144348,zinc finger protein 664,human,0,TF
+ZNF665,79788,zinc finger protein 665,human,0,TF
+ZNF667,63934,zinc finger protein 667,human,0,TF
+ZNF668,79759,zinc finger protein 668,human,2,TF
+ZNF669,79862,zinc finger protein 669,human,0,TF
+ZNF670,93474,zinc finger protein 670,human,4,TF
+ZNF671,79891,zinc finger protein 671,human,0,TF
+ZNF672,79894,zinc finger protein 672,human,0,TF
+ZNF674,641339,zinc finger protein 674,human,0,TF
+ZNF675,171392,zinc finger protein 675,human,1,TF
+ZNF676,163223,zinc finger protein 676,human,0,TF
+ZNF677,342926,zinc finger protein 677,human,0,TF
+ZNF678,339500,zinc finger protein 678,human,0,TF
+ZNF679,168417,zinc finger protein 679,human,1,TF
+ZNF680,340252,zinc finger protein 680,human,0,TF
+ZNF681,148213,zinc finger protein 681,human,0,TF
+ZNF682,91120,zinc finger protein 682,human,0,TF
+ZNF683,257101,zinc finger protein 683,human,0,TF
+ZNF684,127396,zinc finger protein 684,human,0,TF
+ZNF687,57592,zinc finger protein 687,human,9,TF
+ZNF688,146542,zinc finger protein 688,human,1,TF
+ZNF689,115509,zinc finger protein 689,human,2,TF
+ZNF69,7620,zinc finger protein 69,human,0,TF
+ZNF691,51058,zinc finger protein 691,human,1,TF
+ZNF692,55657,zinc finger protein 692,human,0,TF
+ZNF695,57116,zinc finger protein 695,human,0,TF
+ZNF696,79943,zinc finger protein 696,human,0,TF
+ZNF697,90874,zinc finger protein 697,human,1,TF
+ZNF699,374879,zinc finger protein 699,human,0,TF
+ZNF7,7553,zinc finger protein 7,human,1,TF
+ZNF70,7621,zinc finger protein 70,human,0,TF
+ZNF701,55762,zinc finger protein 701,human,0,TF
+ZNF702P,79986,"zinc finger protein 702, pseudogene",human,0,TF
+ZNF703,80139,zinc finger protein 703,human,2,TF
+ZNF704,619279,zinc finger protein 704,human,2,TF
+ZNF705A,440077,zinc finger protein 705A,human,0,TF
+ZNF705D,728957,zinc finger protein 705D,human,0,TF
+ZNF705E,100131539,zinc finger protein 705E,human,0,TF
+ZNF705G,100131980,zinc finger protein 705G,human,1,TF
+ZNF706,51123,zinc finger protein 706,human,0,TF
+ZNF707,286075,zinc finger protein 707,human,6,TF
+ZNF708,7562,zinc finger protein 708,human,0,TF
+ZNF709,163051,zinc finger protein 709,human,0,TF
+ZNF71,58491,zinc finger protein 71,human,3,TF
+ZNF710,374655,zinc finger protein 710,human,0,TF
+ZNF711,7552,zinc finger protein 711,human,2,TF
+ZNF713,349075,zinc finger protein 713,human,0,TF
+ZNF714,148206,zinc finger protein 714,human,1,TF
+ZNF716,441234,zinc finger protein 716,human,1,TF
+ZNF717,100131827,zinc finger protein 717,human,1,TF
+ZNF718,255403,zinc finger protein 718,human,0,TF
+ZNF720,124411,zinc finger protein 720,human,0,TF
+ZNF721,170960,zinc finger protein 721,human,0,TF
+ZNF724P,440519,"zinc finger protein 724, pseudogene",human,0,TF
+ZNF725P,100128853,"zinc finger protein 725, pseudogene",human,0,TF
+ZNF726,730087,zinc finger protein 726,human,0,TF
+ZNF727,442319,zinc finger protein 727,human,0,TF
+ZNF729,100287226,zinc finger protein 729,human,0,TF
+ZNF730,100129543,zinc finger protein 730,human,0,TF
+ZNF732,654254,zinc finger protein 732,human,0,TF
+ZNF735,730291,zinc finger protein 735,human,0,TF
+ZNF737,100129842,zinc finger protein 737,human,0,TF
+ZNF74,7625,zinc finger protein 74,human,0,TF
+ZNF740,283337,zinc finger protein 740,human,5,TF
+ZNF746,155061,zinc finger protein 746,human,4,TF
+ZNF747,65988,zinc finger protein 747,human,2,TF
+ZNF749,388567,zinc finger protein 749,human,0,TF
+ZNF750,79755,zinc finger protein 750,human,1,TF
+ZNF75A,7627,zinc finger protein 75a,human,0,TF
+ZNF75D,7626,zinc finger protein 75D,human,0,TF
+ZNF76,7629,zinc finger protein 76,human,2,TF
+ZNF761,388561,zinc finger protein 761,human,0,TF
+ZNF763,284390,zinc finger protein 763,human,0,TF
+ZNF764,92595,zinc finger protein 764,human,4,TF
+ZNF765,91661,zinc finger protein 765,human,0,TF
+ZNF766,90321,zinc finger protein 766,human,1,TF
+ZNF768,79724,zinc finger protein 768,human,1,TF
+ZNF77,58492,zinc finger protein 77,human,0,TF
+ZNF770,54989,zinc finger protein 770,human,1,TF
+ZNF771,51333,zinc finger protein 771,human,0,TF
+ZNF772,400720,zinc finger protein 772,human,0,TF
+ZNF773,374928,zinc finger protein 773,human,1,TF
+ZNF774,342132,zinc finger protein 774,human,0,TF
+ZNF775,285971,zinc finger protein 775,human,1,TF
+ZNF776,284309,zinc finger protein 776,human,0,TF
+ZNF777,27153,zinc finger protein 777,human,0,TF
+ZNF778,197320,zinc finger protein 778,human,0,TF
+ZNF780A,284323,zinc finger protein 780A,human,0,TF
+ZNF780B,163131,zinc finger protein 780B,human,0,TF
+ZNF781,163115,zinc finger protein 781,human,0,TF
+ZNF782,158431,zinc finger protein 782,human,0,TF
+ZNF783,100289678,zinc finger family member 783,human,0,TF
+ZNF784,147808,zinc finger protein 784,human,0,TF
+ZNF785,146540,zinc finger protein 785,human,1,TF
+ZNF786,136051,zinc finger protein 786,human,0,TF
+ZNF787,126208,zinc finger protein 787,human,3,TF
+ZNF788,388507,zinc finger family member 788,human,0,TF
+ZNF789,285989,zinc finger protein 789,human,0,TF
+ZNF79,7633,zinc finger protein 79,human,1,TF
+ZNF790,388536,zinc finger protein 790,human,0,TF
+ZNF791,163049,zinc finger protein 791,human,0,TF
+ZNF792,126375,zinc finger protein 792,human,1,TF
+ZNF793,390927,zinc finger protein 793,human,1,TF
+ZNF799,90576,zinc finger protein 799,human,0,TF
+ZNF8,7554,zinc finger protein 8,human,2,TF
+ZNF80,7634,zinc finger protein 80,human,1,TF
+ZNF800,168850,zinc finger protein 800,human,1,TF
+ZNF804A,91752,zinc finger protein 804A,human,0,TF
+ZNF804B,219578,zinc finger protein 804B,human,0,TF
+ZNF805,390980,zinc finger protein 805,human,0,TF
+ZNF806,646915,zinc finger protein 806,human,0,TF
+ZNF808,388558,zinc finger protein 808,human,0,TF
+ZNF81,347344,zinc finger protein 81,human,0,TF
+ZNF812P,729648,"zinc finger protein 812, pseudogene",human,0,TF
+ZNF813,126017,zinc finger protein 813,human,0,TF
+ZNF814,730051,zinc finger protein 814,human,0,TF
+ZNF816,125893,zinc finger protein 816,human,0,TF
+ZNF821,55565,zinc finger protein 821,human,2,TF
+ZNF823,55552,zinc finger protein 823,human,0,TF
+ZNF827,152485,zinc finger protein 827,human,1,TF
+ZNF829,374899,zinc finger protein 829,human,3,TF
+ZNF83,55769,zinc finger protein 83,human,0,TF
+ZNF830,91603,zinc finger protein 830,human,19,TF
+ZNF831,128611,zinc finger protein 831,human,0,TF
+ZNF833P,401898,"zinc finger protein 833, pseudogene",human,0,TF
+ZNF835,90485,zinc finger protein 835,human,1,TF
+ZNF836,162962,zinc finger protein 836,human,0,TF
+ZNF837,116412,zinc finger protein 837,human,0,TF
+ZNF839,55778,zinc finger protein 839,human,0,TF
+ZNF84,7637,zinc finger protein 84,human,0,TF
+ZNF840P,100533646,"zinc finger protein 840, pseudogene",human,0,TF
+ZNF841,284371,zinc finger protein 841,human,0,TF
+ZNF843,283933,zinc finger protein 843,human,0,TF
+ZNF844,284391,zinc finger protein 844,human,1,TF
+ZNF845,91664,zinc finger protein 845,human,1,TF
+ZNF846,162993,zinc finger protein 846,human,0,TF
+ZNF85,7639,zinc finger protein 85,human,0,TF
+ZNF853,54753,zinc finger protein 853,human,0,TF
+ZNF860,344787,zinc finger protein 860,human,0,TF
+ZNF876P,642280,"zinc finger protein 876, pseudogene",human,0,TF
+ZNF878,729747,zinc finger protein 878,human,0,TF
+ZNF879,345462,zinc finger protein 879,human,0,TF
+ZNF880,400713,zinc finger protein 880,human,0,TF
+ZNF891,101060200,zinc finger protein 891,human,0,TF
+ZNF90,7643,zinc finger protein 90,human,0,TF
+ZNF91,7644,zinc finger protein 91,human,0,TF
+ZNF92,168374,zinc finger protein 92,human,0,TF
+ZNF93,81931,zinc finger protein 93,human,0,TF
+ZNF98,148198,zinc finger protein 98,human,0,TF
+ZNF99,7652,zinc finger protein 99,human,0,TF
+ZNFX1,57169,"zinc finger, NFX1-type containing 1",human,3,TF
+ZSCAN1,284312,zinc finger and SCAN domain containing 1,human,12,TF
+ZSCAN10,84891,zinc finger and SCAN domain containing 10,human,0,TF
+ZSCAN12,9753,zinc finger and SCAN domain containing 12,human,0,TF
+ZSCAN16,80345,zinc finger and SCAN domain containing 16,human,0,TF
+ZSCAN18,65982,zinc finger and SCAN domain containing 18,human,0,TF
+ZSCAN2,54993,zinc finger and SCAN domain containing 2,human,1,TF
+ZSCAN20,7579,zinc finger and SCAN domain containing 20,human,4,TF
+ZSCAN21,7589,zinc finger and SCAN domain containing 21,human,0,TF
+ZSCAN22,342945,zinc finger and SCAN domain containing 22,human,1,TF
+ZSCAN23,222696,zinc finger and SCAN domain containing 23,human,1,TF
+ZSCAN25,221785,zinc finger and SCAN domain containing 25,human,1,TF
+ZSCAN26,7741,zinc finger and SCAN domain containing 26,human,3,TF
+ZSCAN29,146050,zinc finger and SCAN domain containing 29,human,0,TF
+ZSCAN30,100101467,zinc finger and SCAN domain containing 30,human,0,TF
+ZSCAN31,64288,zinc finger and SCAN domain containing 31,human,0,TF
+ZSCAN32,54925,zinc finger and SCAN domain containing 32,human,5,TF
+ZSCAN4,201516,zinc finger and SCAN domain containing 4,human,0,TF
+ZSCAN5A,79149,zinc finger and SCAN domain containing 5A,human,1,TF
+ZSCAN5B,342933,zinc finger and SCAN domain containing 5B,human,0,TF
+ZSCAN5CP,649137,"zinc finger and SCAN domain containing 5C, pseudogene",human,0,TF
+ZSCAN9,7746,zinc finger and SCAN domain containing 9,human,2,TF
+ZUFSP,221302,zinc finger with UFM1-specific peptidase domain,human,2,TF
+ZXDA,7789,"zinc finger, X-linked, duplicated A",human,0,TF
+ZXDB,158586,"zinc finger, X-linked, duplicated B",human,0,TF
+ZXDC,79364,ZXD family zinc finger C,human,1,TF
+ZZZ3,26009,zinc finger ZZ-type containing 3,human,11,TF

@@ -1,0 +1,21 @@
+# 1. Harmony sceasy
+nohup python ./BENGAL/bin/harmony_integration.py --batch_key species --species_key species --cluster_key maincelltype ../DATA/lung_cca_harmony_integration.h5ad ./results/harmony_integration.h5ad ./results/harmony.png > harmony_output.log 2>&1 & 
+
+# 2. Scanorama sceasy
+nohup python ./BENGAL/bin/scanorama_integration.py --batch_key species --species_key species --cluster_key maincelltype ../DATA/lung_cca_harmony_integration.h5ad ./results/scanorama_integration.h5ad ./results/scanorama_integration.png > scanorama_output.log 2>&1 &
+
+
+# 3. scANVI scvi
+nohup python ./BENGAL/bin/scANVI_integration.py --batch_key species --species_key species --cluster_key maincelltype ../DATA/lung_cca_harmony_integration.h5ad ./results/scANVI_integration.h5ad ./results/scANVI_integration_umap.png scANVI_integration_scANVI.png > scANVI_output.log 2>&1 &
+
+# 4. CCA scib
+nohup Rscript ./BENGAL/bin/seurat_CCA_integration.R -i ../DATA/lung_cca_harmony_integration.rds -o ./results/seuratCCA_integration.rds -p ./results/seuratCCA_integrated_UMAP.pdf -b species -s species -c maincelltype > CCA_output.log 2>&1 &
+
+# 5. RPCA scib
+nohup Rscript ./BENGAL/bin/seurat_RPCA_integration.R -i ../DATA/lung_cca_harmony_integration.rds -o ./results/seuratRPCA_integration.rds -p ./results/seuratRPCA_integrated_UMAP.pdf -b species -s species -c maincelltype > RPCA_output.log 2>&1 &
+
+# 6. fastMNN sceasy
+nohup Rscript ./BENGAL/bin/fastMNN_integration.R -i ../DATA/lung_cca_harmony_integration.rds -o ./results/fastMM_integration.rds -p ./results/fastMNN_integrated_UMAP.pdf -b species -s species -c maincelltype > fastMNN_output.log 2>&1 &
+
+# 7. Liger liger
+# nohup Rscript ./BENGAL/bin/LIGER_integration.R -i ../DATA/lung_cca_harmony_integration.rds -o ./results/LIGER_integration.rds -p ./results/LIGER_integrated_UMAP.pdf -b species -s species -c maincelltype > Liger_output.log 2>&1 &

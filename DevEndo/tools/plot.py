@@ -20,8 +20,8 @@ from sklearn.datasets import make_blobs
 from itertools import combinations
 from scipy import interpolate
 
-plt.rcParams['ytick.left'] = True  # 设置 y 轴刻度线可见
-plt.rcParams['xtick.bottom'] = True  # 设置 x 轴刻度线可见
+plt.rcParams['ytick.left'] = True 
+plt.rcParams['xtick.bottom'] = True 
 mpl.rcParams['pdf.fonttype']  = 42
 
 from .core import *
@@ -74,15 +74,35 @@ def create_dot_size_legend(val,
                            color='none',
                            edgecolor='black'):
     """
-    创建散点图中点大小的图例。
+    Creates a custom legend for dot sizes in a scatter plot.
 
-    参数：
-    val：一个包含数据值的可迭代对象，用于确定点大小的范围。
-    ax：matplotlib 的坐标轴对象，用于在该坐标轴上创建图例。
-    interval（可选，默认值为 2）：确定图例中不同点大小的步长间隔。
-    title（可选）：图例的标题。
-    color（可选，默认值为 'none'）：散点的填充颜色。
-    edgecolor（可选，默认值为 'black'）：散点的边缘颜色。
+    This function generates a dedicated legend axes that maps specific dot sizes to
+    corresponding data values, helping viewers interpret the size encoding in scatter plots.
+
+    Parameters
+    ----------
+    val : iterable
+        An iterable containing numerical data values (e.g., list, numpy array).
+        These values determine the range of dot sizes for the legend.
+    ax : matplotlib.axes.Axes
+        Matplotlib axes object where the legend will be drawn.
+    times : int or float, optional (default=1)
+        Scaling factor to adjust the overall size of legend dots.
+        Multiplies with the base size calculation.
+    interval : int or float, optional (default=2)
+        Step interval between consecutive values in the legend.
+        Controls how many size levels are displayed (fewer steps = fewer legend items).
+    title : str, optional
+        Title for the legend. If None, no title is displayed.
+    color : str or array-like, optional (default='none')
+        Fill color of the legend dots. Use 'none' for transparent fill.
+    edgecolor : str or array-like, optional (default='black')
+        Edge color of the legend dots.
+
+    Returns
+    -------
+    None
+        Modifies the input `ax` in-place by adding the size legend.
 
     """
     size_factor = 10**(count_digits(max(val))-1)
@@ -106,7 +126,7 @@ def get_group_colors(adata, key, colors = None):
     Make a dict of colors for adata.obs[key].
     '''
     if colors is None:
-        default_colors = ['#1f77b4','#ff7f0e','#2ca02c','#d62728','#9467bd','#8c564b','#e377c2','#7f7f7f','#bcbd22','#17becf'] # matplotlib 默认循环颜色
+        default_colors = ['#1f77b4','#ff7f0e','#2ca02c','#d62728','#9467bd','#8c564b','#e377c2','#7f7f7f','#bcbd22','#17becf'] # matplotlib default colors
     else:
         default_colors = colors
     cats = factorOrder(adata.obs[key])
@@ -128,173 +148,6 @@ def stage_colors(adata, stage_key,cmap = 'Spectral_r', n = None):
         nc = n
     adata.uns['%s_colors'%stage_key] = create_gradient_color(sns.color_palette(cmap, nc), nc)
 
-
-def bestcolors(n=2,contrast='high',show=False):
-    """
-    Return preset colors
-    --------
-
-    n: number of colors
-    contrast: high, mid, low
-    show: show color examples
-    """
-    if n == 2:
-        if contrast == 'high':
-            r = ['#EE5A4D','#303854']
-        if contrast == 'mid':
-            r = ['#117D8A','#F26061']
-        if contrast == 'low':
-            r = ['#77C3A5','#FBBA00']
-
-    if n == 3:
-        if contrast == 'high':
-            r = ['#CF3A36','#3B7C70','#4063A3']
-        if contrast == 'mid':
-            r = ['#FF7114','#159C95','#2473A2']
-        if contrast == 'low':
-            r = ['#EE404E','#FBBB48','#0099D5']
-
-    if n == 4:
-        if contrast == 'high':
-            r = ['#659A32','#046E8F','#F9C22E','#DD4124']
-        if contrast == 'mid':
-            r = ['#DD5129','#0F7BA2','#43B284','#FAB255']
-        if contrast == 'low':
-            r = ['#3FB8AF','#69D2E7','#EBA42B','#DA7698']
-    if n == 5:
-        if contrast == 'high':
-            r = ['#DB3D06','#FCD723','#8EB035','#7DB3E2','#3D3E52']
-        if contrast == 'mid':
-            r = ['#CC3D24','#F3C558','#6DAE90','#30B4CC','#004F7A']
-        if contrast == 'low':
-            r = ['#E01A4F','#F15946','#F9C22E','#53B3CB','#7DCFB6']
-            r = ['#F26386','#F588AF','#A4D984','#FCBC52','#FD814E']
-
-    if n == 6:
-        if contrast == 'high':
-            r = ['#9F248F','#FFCE4E','#017A4A','#F9791E','#244579','#C6242D']
-        if contrast == 'mid':
-            r = ['#DC0000','#FF6400','#FEB24C','#64AA00','#506EBE','#783C8C']
-        if contrast == 'low':
-            r = ['#FF9062','#FD6598','#CB64C0','#3294DD','#7DCFB6','#D0EB60']
-
-    if n == 7:
-        if contrast == 'high':
-            r = ['#','#','#','#','#','#','#']
-        if contrast == 'mid':
-            r = ['#86C4E1','#4D6AB8', '#6F45A2', '#73C3A4', '#CC2E11','#D65E9B', '#EA8800']
-        if contrast == 'low':
-            r = ['#EFB279','#F7E69E','#3D7BB7','#B98FC1','#4BAA99','#C96678','#F59EB4']
-
-    if n == 8:
-        if contrast == 'high':
-            r = ['#','#','#','#','#','#','#','#']
-        if contrast == 'mid':
-            r = ['#4C5454','#DC0000','#FF6400','#FFDC14','#64AA00','#506EBE','#8C3C78','#FF96C8']
-        if contrast == 'low':
-            r = ['#61BEA4','#B6E7E0','#AA3F5D','#DAA5AC','#98A54F','#2E92A2','#FFB651','#D85A44']
-
-    if n == 9:
-        if contrast == 'high':
-            r = ['#','#','#','#','#','#','#','#','#']
-        if contrast == 'mid':
-            r = ['#','#','#','#','#','#','#','#','#']
-        if contrast == 'low':
-            r = ['#8ED3C7','#FD7F72','#D9D51B','#BEBADB','#7DB0D1','#D3934D','#8B43AB','#F3CF3E','#52BD7E']
-
-    if n == 10:
-        if contrast == 'high':
-            r = ['#3F67B6','#F48023','#9D368B','#D48892','#9E4027','#5689C8','#C92E2C','#84C246','#66448D','#DFB149']
-        if contrast == 'mid':
-            r = ['#D31F28','#272E6A','#228843','#87298B','#F17C2A','#FCE300','#879ED0','#BE6CAB','#D7A767','#5F8C96']
-        if contrast == 'low':
-            r = ['#CF87B9','#F6B1D0','#FFE07B','#DAA882','#10A597','#558AC8','#EF473A','#A7ADDA','#83CBF1','#EF7D21']
-
-    if n == 11:
-        if contrast == 'high':
-            r = ['#','#','#','#','#','#','#','#','#','#','#']
-        if contrast == 'mid':
-            r = ['#FF4D6F','#579EA4','#DF7713','#F9C000','#86AD34','#5D7298','#81B28D','#7E1A2F','#2D2651','#C8350D','#BD777A']
-        if contrast == 'low':
-            r = ['#','#','#','#','#','#','#','#','#','#','#']
-
-    if n == 12:
-        if contrast == 'high':
-            r = ['#5F8C96','#DDAB55','#D92330','#CA7D87','#3369AF','#73B55C','#272E6A','#ED7D31','#9A3986','#54BFE3','#998DB9','#9E4424']
-        if contrast == 'mid':
-            r = ['#','#','#','#','#','#','#','#','#','#','#','#']
-        if contrast == 'low':
-            r = ['#','#','#','#','#','#','#','#','#','#','#','#']
-
-    if n == 13:
-        if contrast == 'high':
-            r = ['#','#','#','#','#','#','#','#','#','#','#','#','#']
-        if contrast == 'mid':
-            r = ['#','#','#','#','#','#','#','#','#','#','#','#','#']
-        if contrast == 'low':
-            r = ['#','#','#','#','#','#','#','#','#','#','#','#','#']
-
-    if n == 14:
-        if contrast == 'high':
-            r = ['#','#','#','#','#','#','#','#','#','#','#','#','#','#']
-        if contrast == 'mid':
-            r = ['#','#','#','#','#','#','#','#','#','#','#','#','#','#']
-        if contrast == 'low':
-            r = ['#196CCD','#C751D5','#DE292E','#F2BD4C','#FD7C08','#478EDB','#8FCBEB','#7E40D1','#9B67BC','#9E3D19','#D78C8C','#7ACC5D','#633F8F','#D9AE4F']
-
-
-    if n == 15:
-        if contrast == 'high':
-            r = ['#','#','#','#','#','#','#','#','#','#','#','#','#','#','#']
-        if contrast == 'mid':
-            r = ['#','#','#','#','#','#','#','#','#','#','#','#','#','#','#']
-        if contrast == 'low':
-            r = ['#','#','#','#','#','#','#','#','#','#','#','#','#','#','#']
-
-
-    if n == 16:
-        if contrast == 'high':
-            r = ['#','#','#','#','#','#','#','#','#','#','#','#','#','#','#']
-        if contrast == 'mid':
-            r = ['#','#','#','#','#','#','#','#','#','#','#','#','#','#','#']
-        if contrast == 'low':
-            r = ['#','#','#','#','#','#','#','#','#','#','#','#','#','#','#']
-
-
-    if n == 17:
-        if contrast == 'high':
-            r = ['#','#','#','#','#','#','#','#','#','#','#','#','#','#','#','#']
-        if contrast == 'mid':
-            r = ['#','#','#','#','#','#','#','#','#','#','#','#','#','#','#','#']
-        if contrast == 'low':
-            r = ['#1D9D78','#E25D00','#59969B','#FE9A90','#ED73BE','#E4A908','#9A4EA4','#A6CFE3','#14B7C8','#E32B85','#FF8100','#746FB1','#B6B929','#B55626','#FD4E33','#3DBD44','#A27518']
-
-    if n == 18:
-        if contrast == 'high':
-            r = ['#','#','#','#','#','#','#','#','#','#','#','#','#','#','#','#','#']
-        if contrast == 'mid':
-            r = ['#','#','#','#','#','#','#','#','#','#','#','#','#','#','#','#','#']
-        if contrast == 'low':
-            r = ['#','#','#','#','#','#','#','#','#','#','#','#','#','#','#','#','#']
-
-    if n == 19:
-        if contrast == 'high':
-            r = ['#','#','#','#','#','#','#','#','#','#','#','#','#','#','#','#','#','#']
-        if contrast == 'mid':
-            r = ['#','#','#','#','#','#','#','#','#','#','#','#','#','#','#','#','#','#']
-        if contrast == 'low':
-            r = ['#','#','#','#','#','#','#','#','#','#','#','#','#','#','#','#','#','#']
-
-    if n == 20:
-        if contrast == 'high':
-            r = ['#3E51A8', '#5FBDB0', '#545B65', '#C65E5E', '#D93786', '#F3A83D', '#7E56C2', '#B63A3A', '#D17B46', '#4A8EC6',
-                 '#F39237', '#66A966', '#D68888', '#FAD337', '#66C966', '#94C9E5', '#009A90', '#D6ACEF', '#D1A33C', '#D1B99B']
-        if contrast == 'mid':
-            r = ['#','#','#','#','#','#','#','#','#','#','#','#','#','#','#','#','#','#','#']
-        if contrast == 'low':
-            r = ['#','#','#','#','#','#','#','#','#','#','#','#','#','#','#','#','#','#','#']
-    return(r)
-# def bestcmap():
 
 def highLightGroup(adata, groupby, label=None,label_color = None,
                    target_groups=None,
@@ -442,36 +295,6 @@ def highLightGroup(adata, groupby, label=None,label_color = None,
                     axs[rmplot].set_axis_off()
                 else:
                     axs[rmplot[0], rmplot[1]].set_axis_off()  
-    
-def show_bestcolors(r, n_samples=200, fontsize = 8, rotation = 90, figsize = (8,2)):
-    fig, ax = plt.subplots(1, 3,figsize = figsize)
-    # 1. barplot
-    ax[0].bar(r, 1, color = r)
-    ax[0].grid(False)
-    ax[0].set_yticks([])
-    ax[0].set_xticklabels(r, rotation=rotation, ha="center",fontsize = fontsize)
-    # 2. dotplot
-    X, _ = make_blobs(n_samples=n_samples, centers=len(r), cluster_std=0.60, random_state=0)
-    kmeans = KMeans(n_clusters=len(r),max_iter = 10)
-    kmeans.fit(X)
-    y_kmeans = kmeans.predict(X)
-    for i in range(len(r)):
-        ax[1].scatter(X[y_kmeans == i, 0], X[y_kmeans == i, 1], c=r[i], s=20, label = r[i])
-
-    ax[1].grid(False)
-    ax[1].set_xticks([])
-    ax[1].set_yticks([])
-    # 3. curvplot
-    x = np.arange(10)
-    y = 2.5 * np.sin(x / 20 * np.pi)
-    for i in range(len(r)):
-        ax[2].plot(x, y-i, c = r[i], label = r[i])
-    ax[2].grid(False)
-    ax[2].set_xticks([])
-    ax[2].set_yticks([])
-
-    plt.show()
-
 def LerpColour(c1,c2,t):
     return (c1[0]+(c2[0]-c1[0])*t, c1[1]+(c2[1]-c1[1])*t, c1[2]+(c2[2]-c1[2])*t)
 def create_gradient_color(colors_list, 
@@ -517,150 +340,6 @@ def create_gradient_color(colors_list,
         rgb_or_hex = rgb_list
     return rgb_or_hex
 
-
-
-
-def plotTrajectory(adata, source, 
-                   basis = 'X_umap',
-                   color = None,
-                   style = 'merge',
-                   linestyle='solid',
-                   linewidths = 5,
-                   line_alpha=1,
-                   point_size = 100,
-                   point_alpha=1,
-                   edgecolors = '#000000',
-                   edgewidth = 2,
-                   size = None,
-                   add_outline=False,
-                   color_map = 'plasma',
-                   ncol = 3,
-                   figsize = (6,6)):
-    time_key = list(source[list(source.keys())[0]].keys())[0]
-    time_cat = adata.obs[time_key].cat.categories.tolist()
-    trace_name = list(source.keys())
-
-    aggr_rep = []
-    for x in trace_name:
-        trace = adata.obs[f'trace_{x}'].values
-
-        rep = adata.obsm[basis][:,:2][trace>0]
-        time = np.array(adata.obs[time_key])[trace>0]
-        trace = trace[trace>0]
-        mean_rep = []
-        time_index = []
-        for t in time_cat:
-            if t in list(time):
-                mask = time == t
-                mean_rep.append(trace[mask].dot(rep[mask])/trace[mask].sum())
-                # mean_rep.append(rep[mask].mean(0))
-                time_index.append(t)
-        df = pd.DataFrame(np.vstack(mean_rep),columns=['x','y'])
-        df[time_key] = pd.Categorical(time_index, time_index)
-        df['trace'] = x
-        aggr_rep.append(df)
-    aggr_rep = pd.concat(aggr_rep)
-    aggr_rep['trace'] = pd.Categorical(aggr_rep['trace'].values, trace_name)
-    aggr_rep.reset_index(inplace=True)
-
-    if color is None:
-        color = time_key
-    if not 'trace_label_colors' in adata.uns.keys():
-        adata.uns['trace_label_colors'] = [mcolors.to_hex(i) for i in plt.cm.tab10(np.linspace(0,1,len(adata.obs['trace_label'].cat.categories.tolist())))]
-    trace_color = dict(zip(adata.obs['trace_label'].cat.categories.tolist(), adata.uns['trace_label_colors']))
-    time_color = dict(zip(adata.obs[time_key].cat.categories.tolist(), adata.uns[f'{time_key}_colors']))
-    if style == 'merge':
-        _, ax = plt.subplots(1,1, figsize = figsize)
-        for s in trace_name:
-            ax.plot(aggr_rep['x'].values[aggr_rep['trace']==s], 
-                    aggr_rep['y'].values[aggr_rep['trace']==s],
-                    lw=linewidths,linestyle=linestyle,
-                    alpha = line_alpha,
-                    c=trace_color[s],label = s,zorder = 2)
-        for t in time_cat:
-            ax.scatter(aggr_rep['x'].values[aggr_rep[time_key]==t], 
-                       aggr_rep['y'].values[aggr_rep[time_key]==t], 
-                       alpha = point_alpha,
-                       c=time_color[t],s=point_size,
-                       edgecolors = edgecolors,
-                       linewidth = edgewidth,
-                       label = t,zorder=3)
-
-        sc.pl.embedding(adata, basis = basis,color = color, ax = ax, 
-                        size = size, add_outline=add_outline,
-                        color_map=color_map, show=False)
-    
-    if style == 'single':
-        ncol = min(len(trace_name), ncol)
-        if len(trace_name) == ncol:
-            nc = ncol
-            nr = 1
-            pp = list(np.arange(ncol))
-            rm_pp = pp.copy()
-        elif len(trace_name) > ncol:
-            nc = ncol # number of columns
-            nr = np.ceil(len(trace_name)/nc).astype(int) # number of rows
-            pp = list(itertools.product(np.arange(nr), np.arange(nc)))
-            rm_pp = pp.copy()   
-        _, axs = plt.subplots(nr,nc, figsize = figsize)
-        for i in range(len(trace_name)):
-            if nc == nr == 1:
-                ax = axs
-                rm_pp = None
-            elif (nc == 1) | (nr ==1):
-                ax = axs[pp[i]]
-                rm_pp.pop(0)
-            else:
-                ax = axs[pp[i][0], pp[i][1]]
-                rm_pp.pop(0)
-
-            sub_agg_rep = aggr_rep[aggr_rep['trace']==trace_name[i]]
-            ax.plot(sub_agg_rep['x'].values, 
-                    sub_agg_rep['y'].values,
-                    lw=linewidths,
-                    linestyle=linestyle,
-                    alpha = line_alpha,
-                    c=trace_color[trace_name[i]],
-                    # label = trace_name[i],
-                    zorder = 2)
-            for t in time_cat:
-                ax.scatter(sub_agg_rep['x'].values[sub_agg_rep[time_key]==t], 
-                           sub_agg_rep['y'].values[sub_agg_rep[time_key]==t], 
-                           alpha = point_alpha,
-                           c=time_color[t],s=point_size,
-                           edgecolors = edgecolors,
-                           linewidth = edgewidth,
-                           # label = t, 
-                           zorder=3)
-            if color == 'trace_score':
-                sc.pl.embedding(adata, basis = basis,
-                                color = f'trace_{trace_name[i]}',title=trace_name[i],
-                                size = size,
-                                add_outline = add_outline,
-                                ax = ax, color_map=color_map, show=False)
-            if color == 'trace_label':
-                val = np.array(adata.obs['trace_label'])
-                val[val != trace_name[i]] = 'other'
-                # adata.obs['new_label11'] = 
-                sub_adata = adata[val=='other'].concatenate(adata[val==trace_name[i]])
-                sub_adata.obs = pd.DataFrame(index=sub_adata.obs.index.values)
-                sub_adata.obs['trace_label'] = pd.Categorical(np.concatenate([val[val=='other'], val[val==trace_name[i]]]),
-                                                              ['other',trace_name[i]])
-                
-                sub_adata.uns['trace_label_colors'] = ['#727272', trace_color[trace_name[i]]]
-                sc.pl.embedding(sub_adata, basis = basis,
-                                color = 'trace_label', 
-                                title=trace_name[i], 
-                                ax = ax, show=False)                
-
-        # remove unused subplots
-        if not rm_pp == None:
-            if len(rm_pp) > 0:
-                for rmplot in rm_pp:
-                    if nc == 1 | nr ==1:  
-                        axs[rmplot].set_axis_off()
-                    else:
-                        axs[rmplot[0], rmplot[1]].set_axis_off()   
 
 def pick_colors(adata, key, colors = None):
     '''
@@ -745,7 +424,6 @@ def steam_plot(adata,
     bias1 = np.random.uniform(-0.3, 0.3, len(x1))
     bias2 = np.random.uniform(-0.3, 0.3, len(x2))
 
-    # 背景矩形
     for i in range(len(condition)): 
         high = max(sub_deg1[sub_deg1['condition'] == condition[i]][y])
         low = max(sub_deg2[sub_deg2['condition'] == condition[i]][y])
@@ -757,7 +435,6 @@ def steam_plot(adata,
     ax.scatter(x1+bias1, sub_deg1[y], s=size, c=c1)
     ax.scatter(x2+bias2, -sub_deg2[y],s=size,  c=c2)
 
-        # 中央矩形
     for i in range(len(condition)):
         if colors is not None:
             facecolor = colors[condition[i]]
@@ -1219,7 +896,6 @@ def plot_inout(lr,
             sub_obs = adata.obs[adata.obs[condition] == c]
             ratios[c] = sub_obs[groupby].value_counts()/sub_obs[groupby].value_counts().sum()
     conds = factorOrder(lr['condition'])
-    # group 颜色
     group_colors=get_group_colors(adata, groupby)
 
     plt.rcParams['ytick.left'] = True 

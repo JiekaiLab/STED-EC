@@ -1,7 +1,3 @@
-from rpy2.robjects import r
-from rpy2 import robjects
-from rpy2.robjects import pandas2ri
-import anndata2ri
 import scanpy as sc
 import anndata
 import gc,os,pkgutil
@@ -34,6 +30,9 @@ def cellchat(adata,
     >>> deg = de.cellchat(adata, groupby='leiden', n_samples = 500)
     ------
     '''
+    from rpy2.robjects import r
+    from rpy2 import robjects
+    from rpy2.robjects import pandas2ri
     os.makedirs(saveDir, exist_ok = True)
     adata1 = choiceGroupCells(adata, groupby, cells_per_group)
     if condition == None:
@@ -71,6 +70,10 @@ def run_cellchat(adata,
     type : methods for computing the average gene expression per cell group. Options are "triMean", "truncatedMean", "thresholdedMean", "median".
     ----------
     '''
+    from rpy2.robjects import r
+    from rpy2 import robjects
+    from rpy2.robjects import pandas2ri
+    import anndata2ri
     r('adata = %s'%anndata2ri.py2rpy(adata).r_repr())
     r('library(Seurat);library(CellChat);CellChatDB=CellChatDB.%s;PPI = PPI.%s'%(species,species),print_r_warnings=False)
     r("CellChatDB.use=subsetDB(CellChatDB, search = c('Secreted Signaling','ECM-Receptor','Cell-Cell Contact'), key = 'annotation')",print_r_warnings=False)
@@ -96,6 +99,9 @@ def get_lr_from_cellchat_obj(filename):
     '''
     Get ligand-receptor dataframe from cellchat object.
     '''
+    from rpy2.robjects import r
+    from rpy2 import robjects
+    from rpy2.robjects import pandas2ri
     r('library(CellChat);adata=loadRDS(filename)',print_r_warnings=False)
     lr = r("subsetCommunication(sub_adata)",print_r_warnings=False)
     with (robjects.default_converter + pandas2ri.converter).context():
@@ -115,6 +121,9 @@ def get_cellchat_interaction(species = 'mouse'):
     >>> db = de.get_cellchat_interaction('mouse')
     ------
     '''
+    from rpy2.robjects import r
+    from rpy2 import robjects
+    from rpy2.robjects import pandas2ri
     r('library(Seurat);library(CellChat);CellChatDB=CellChatDB.%s;PPI = PPI.%s'%(species,species),print_r_warnings=False)
     db = r("CellChatDB$interaction",print_r_warnings=False)
     with (robjects.default_converter + pandas2ri.converter).context():
@@ -133,6 +142,9 @@ def get_cellchat_genes(species = 'mouse'):
     >>> db = de.get_cellchat_genes('mouse')
     ------
     '''
+    from rpy2.robjects import r
+    from rpy2 import robjects
+    from rpy2.robjects import pandas2ri
     r('library(Seurat);library(CellChat);CellChatDB=CellChatDB.%s;PPI = PPI.%s'%(species,species),print_r_warnings=False)
     db = r("CellChatDB$geneInfo",print_r_warnings=False)
     with (robjects.default_converter + pandas2ri.converter).context():
@@ -210,7 +222,6 @@ def plot_lr(lr,
     '''
     Dot plot for ligand-receptor in each condition.
     '''
-    # 根据condition的分类排序
     if 'id2' not in lr.columns.tolist():
         lr['id2'] = lr['source'].astype(object) + '->' + lr['target'].astype(object) + '(' + lr['condition'].astype(object) + ')'
     if 'id' in lr.columns.tolist():
@@ -314,12 +325,12 @@ def run_liana(adata,
     ----------
     '''
     if pkgutil.find_loader('liana') is None:
-        os.system(f"{sys.executable} -m pip install liana decoupler openpyxl pandas==2.1.0 -i https://pypi.tuna.tsinghua.edu.cn/simple")
+        os.system(f"{sys.executable} -m pip install liana decoupler openpyxl pandas==2.1.0")
     from liana.mt import rank_aggregate
     from liana.method import singlecellsignalr, connectome, cellphonedb, natmi, logfc, cellchat, geometric_mean
     import liana as li
     import decoupler as dc
-    human_resource = li.rs.select_resource('consensus') # 人的基因名
+    human_resource = li.rs.select_resource('consensus')
     map_df = li.rs.get_hcop_orthologs(url='https://ftp.ebi.ac.uk/pub/databases/genenames/hcop/human_mouse_hcop_fifteen_column.txt.gz',
                                       columns=['human_symbol', 'mouse_symbol'],
                                        min_evidence=3
@@ -344,7 +355,6 @@ def run_liana(adata,
     res = adata.uns['liana_res']
     res.rename(columns = {'ligand_complex':'ligand','receptor_complex':'receptor','lr_probs':'prob','cellchat_pvals':'pval'},inplace = True)
     res['interaction_name_2'] = res['ligand'] + ' - '+res['receptor']
-    # 添加cellchat注释
     interaction1 = de.get_cellchat_interaction()
     interaction = de.split(interaction1['ligand'],interaction1['annotation'])
     annotation = np.array(['Others']*res.shape[0],dtype = '<U20')

@@ -46,19 +46,10 @@ from functools import reduce
 from pandas.api.types import is_categorical_dtype
 from sklearn.neighbors import NearestNeighbors
 from scipy.stats import hypergeom
-## reload external modules
-# import importlib
-# import tools.comparison
-# import tools.core
-# importlib.reload(tools.core)
-# importlib.reload(tools.comparison)
-# import rpy2.robjects as robjects
-# from rpy2.robjects.packages import importr
-# from rpy2.robjects import pandas2ri
 from tools.core import *
 from tools.comparison import *
 from tools.plot import *
-# from tools.communication import *
+from tools.communication import *
 import matplotlib as mpl
 mpl.rcParams['pdf.fonttype'] = 42
 
@@ -318,172 +309,6 @@ def oneStepUmap(adata,features=None, n_neighbors=15, n_pcs=40, umap = True, reso
         sc.tl.leiden(adata, resolution = resolution)
     return(adata)
 
-
-
-
-
-# def trajectoryPlot(adata,
-#                    trajectory_ds,
-#                    basis = 'X_umap',
-#                    day_field = 'day',
-#                    linestyle = 'solid',
-#                    trajectory_label = 'label_latest',
-#                    edgecolors = '#000000',
-#                    color = 'time_label',
-#                    color_map = 'plasma',
-#                    linecolor = None,
-#                    dotcolor = None,
-#                    add_outline = True,
-#                    size = 2,
-#                    edgewidth = 2,
-#                    point_size=1,
-#                    line_alpha = 1,
-#                    point_alpha = 1,
-#                    ncol = 3,
-#                    linewidths = 1,
-#                    figsize = (8,8)):
-    
-#     ## 计算所有Lineage在每个时刻的中心的坐标
-#     aggr_rep = []
-#     days = np.sort(adata.obs[day_field].unique())
-#     for t in days:
-#         mask = adata.obs[day_field] == t
-#         score = trajectory_ds[mask].X.T
-#         score_sum = np.array(score.sum(1))
-#         center_pos = np.array(np.dot(score, adata[mask].obsm[basis][:,:2]))
-#         aggr_rep.append((center_pos.T/score_sum).T)
-#     aggr_rep = np.vstack(aggr_rep)
-#     mean_ann = anndata.AnnData(X = aggr_rep, obs = pd.DataFrame({'trajectory':np.tile(trajectory_ds.var_names, len(days)),
-#                                                                  'day':np.repeat(days, trajectory_ds.shape[1])}))
-    
-#     ncol = min(trajectory_ds.shape[1], ncol)
-
-#     trace_color = dict(zip(adata.obs[trajectory_label].cat.categories.tolist(), adata.uns[f'{trajectory_label}_colors']))
-#     time_color = dict(zip(adata.obs[day_field].cat.categories.tolist(), adata.uns[f'{day_field}_colors']))
-
-#     if trajectory_ds.shape[1] == ncol:
-#         nc = ncol
-#         nr = 1
-#         pp = list(np.arange(ncol))
-#         rm_pp = pp.copy()
-#     elif trajectory_ds.shape[1] > ncol:
-#         nc = ncol # number of columns
-#         nr = np.ceil(trajectory_ds.shape[1]/nc).astype(int) # number of rows
-#         pp = list(itertools.product(np.arange(nr), np.arange(nc)))
-#         rm_pp = pp.copy()   
-#     _, axs = plt.subplots(nr,nc, figsize = figsize)
-#     for i in range(trajectory_ds.shape[1]):
-#         if nc == nr == 1:
-#             ax = axs
-#             rm_pp = None
-#         elif (nc == 1) | (nr ==1):
-#             ax = axs[pp[i]]
-#             rm_pp.pop(0)
-#         else:
-#             ax = axs[pp[i][0], pp[i][1]]
-#             rm_pp.pop(0)
-#         if linecolor is None:
-#             linecolor_ax = trace_color[trajectory_ds.var_names[i]]
-#         else:
-#             linecolor_ax = linecolor
-#         sub_mean_ann = mean_ann[mean_ann.obs['trajectory'] == trajectory_ds.var_names[i]] 
-
-#         ## 绘制每个lineage在不同时间点之间的连线
-#         ax.plot(sub_mean_ann.X[:,0], 
-#                 sub_mean_ann.X[:,1],
-#                 lw=linewidths,
-#                 linestyle=linestyle,
-#                 alpha = line_alpha,
-#                 c=linecolor_ax,
-#                 zorder = 2)
-#         for t in days:
-#             ## 令点的颜色为lineage的默认颜色
-#             if dotcolor is None:
-#                 dotcolor_ax = trace_color[trajectory_ds.var_names[i]]
-#             elif dotcolor == 'time':
-#                 dotcolor_ax = time_color[t]
-#             else:
-#                 dotcolor_ax = dotcolor
-            
-#             ## 绘制每个lineage在每个时间点的中心点
-#             ax.scatter(sub_mean_ann.X[:,0][sub_mean_ann.obs[day_field]==t], 
-#                        sub_mean_ann.X[:,1][sub_mean_ann.obs[day_field]==t], 
-#                        alpha = point_alpha,
-#                        c=dotcolor_ax,
-#                        s=point_size,
-#                        edgecolors = edgecolors,
-#                        linewidth = edgewidth,
-#                        zorder=3)
-
-#         if color == 'score':
-#             sc.pl.embedding(adata, basis = basis,
-#                             color = trajectory_ds.var_names[i],title=trajectory_ds.var_names[i],
-#                             size = size,
-#                             add_outline = add_outline,
-#                             ax = ax, color_map=color_map, frameon = False, show=False)
-#         if color == 'label':
-#             val = np.array(adata.obs[trajectory_label])
-#             val[val != trajectory_ds.var_names[i]] = 'other'
-#             sub_adata = adata[val=='other'].concatenate(adata[val==trajectory_ds.var_names[i]])
-#             sub_adata.obs = pd.DataFrame(index=sub_adata.obs.index.values)
-#             sub_adata.obs['trace_label'] = pd.Categorical(np.concatenate([val[val=='other'], val[val==trajectory_ds.var_names[i]]]),
-#                                                           ['other',trajectory_ds.var_names[i]])
-
-#             sub_adata.uns['trace_label_colors'] = ['#EBEBEB', trace_color[trajectory_ds.var_names[i]]]
-#             sc.pl.embedding(sub_adata, basis = basis,
-#                             color = 'trace_label', 
-#                             add_outline = add_outline,
-#                             title=trajectory_ds.var_names[i], 
-#                             ax = ax, frameon = False, show=False)
-
-#         if color == 'time_label':
-#             # 把每个时间点分数最大的细胞群体挑选出来展示
-#             df = adata.obs.loc[:, [day_field,trajectory_label,trajectory_ds.var_names[i]]]
-#             df = df.groupby([day_field,trajectory_label]).mean().reset_index()
-#             df = df.loc[df.groupby([day_field])[trajectory_ds.var_names[i]].idxmax()]
-#             ## 在每个时间点中，将不属于某个特定器官的细胞的时间ID设为0（灰色表示），其它时间点为彩色
-#             idx = []
-#             for t in range(df.shape[0]):
-#                 idx.append(adata.obs_names.values[(adata.obs[day_field] == df.iloc[t,:][0]) & (adata.obs[trajectory_label] != df.iloc[t,:][1])])
-#             idx = np.concatenate(idx)
-#             temp_labs = pd.Series(np.array(adata.obs[day_field]), index = adata.obs_names)
-#             temp_labs[idx] = 0
-            
-#             ## 将轨迹分数为0的时间ID设为0
-#             score = adata.obs[trajectory_ds.var_names[i]].copy()
-#             zero_score_index = score.index.values[score == 0]
-#             temp_labs[zero_score_index] = 0
-
-#             ## 设置时间ID的颜色
-#             adata.obs['temp_color'] = temp_labs
-#             sub_adata = adata[temp_labs==0].concatenate(adata[temp_labs!=0])
-#             sub_adata.obs['temp_color'] = pd.Categorical(sub_adata.obs['temp_color'])
-            
-#             ## 时间ID为0的细胞为灰色 #EBEBEB
-#             sub_adata.uns['temp_color_colors'] = ['#EBEBEB'] + list(adata.uns[f'{day_field}_colors'])
-
-#             ## 绘制UMAP
-#             sc.pl.embedding(sub_adata, basis = basis,
-#                             color = 'temp_color', 
-#                             add_outline = add_outline,
-#                             title=trajectory_ds.var_names[i], #legend_loc ='on data',
-#                             ax=ax, frameon = False, show=False)
-                            
-#             ## 时间点太多了，这里设置不显示时间legend                
-#             legend=ax.legend('')
-#             legend.remove()
-
-#     # remove unused subplots
-#     if not rm_pp == None:
-#         if len(rm_pp) > 0:
-#             for rmplot in rm_pp:
-#                 if nc == 1 | nr ==1:  
-#                     axs[rmplot].set_axis_off()
-#                 else:
-#                     axs[rmplot[0], rmplot[1]].set_axis_off()   
-
-
-
 def stackbarplot(adata,
                  x, y,
                  df = None,
@@ -651,73 +476,6 @@ def stackbarplot(adata,
         plt.savefig(save)
     return(stack_ratio.T)
 
-# def dotGeneExp(adata, x, y, 
-#                gene,
-#                cmap = 'YlGnBu_r',
-#                x_order = None,
-#                y_order = None,
-#                dot_min = 0.05,
-#                dot_max = 1,
-#                bbox_to_anchor=(1.20, 0.8),
-#                figsize = (5.5,3.5),
-#                verbose = False):
-#     x_name = []
-#     y_name = []
-#     prop = []
-#     mean = []
-#     if x_order is None:
-#         x_list = pd.Categorical(adata.obs[x]).categories
-#     else:
-#         x_list = x_order
-#     if y_order is None:
-#         y_list = pd.Categorical(adata.obs[y]).categories
-#     else:
-#         y_list = y_order
-#     adata = adata[:,gene].copy()
-#     for xi in x_list:
-#         if verbose:
-#             print(xi)
-#         for yi in y_list:
-#             sub_adata = adata[(adata.obs[x] == xi) & (adata.obs[y] == yi),]
-#             if sub_adata.shape[0] > 0:
-#                 prop.append((nonzero(sub_adata.X)/sub_adata.X.shape[0])[0])
-#                 mean.append(sub_adata.X.mean())
-
-#             else:
-#                 prop.append(0)
-#                 mean.append(0)
-#             x_name.append(xi)
-#             y_name.append(yi)
-#     df = pd.DataFrame({'x':pd.Categorical(x_name, x_list),
-#                        'y':pd.Categorical(y_name, y_list), 
-#                        'prop':prop, 'mean':mean})
-
-#     prop_plot = df['prop'].copy()
-#     prop_plot[prop_plot <= dot_min] = 0
-#     prop_plot[prop_plot >= dot_max] = dot_max
-
-#     fig, (ax, cax) = plt.subplots(nrows=2,figsize=figsize, 
-#                       gridspec_kw={"height_ratios":[1, 0.05]})
-#     fig.tight_layout(pad=2.0)
-
-#     scatter = ax.scatter(df['x'], df['y'], cmap = cmap,
-#                           s = prop_plot*100,c = df['mean'],
-#                           edgecolors = '#000000',
-#                 linewidths = 1,label = 'Scn7a')
-
-#     handles, labels = scatter.legend_elements(prop="sizes",num=5, alpha=0.6)
-#     legend = ax.legend(handles, labels, loc="upper right", 
-#                         title="Proportion",bbox_to_anchor=bbox_to_anchor,
-#                         fancybox=False, shadow=False)
-    
-#     cbar = fig.colorbar(scatter, cax = cax, orientation='horizontal')
-#     for label in ax.get_xticklabels():
-#         label.set_ha("center")
-#         label.set_rotation(90)
-#     ax.margins(x=0.02)
-#     ax.set_title(gene)
-
-
 def fateMapping(adata,
                 predict_adata=None, 
                 predict_labels=None, 
@@ -795,7 +553,7 @@ def fateMapping(adata,
 
         if features is not None:
             features = np.array(features)[pd.Series(features).isin(merge_data.var_names)]
-        # 批次矫正
+        # Batch correction
         if runpca:
         # if method == 'pca':
             print('Runing PCA...')
@@ -878,8 +636,6 @@ def fateMapping(adata,
                      'condition':batch1.obs.loc[mapping.index.values,condition]})
             count = pd.pivot_table(stat, index='predict_labels', columns='condition', aggfunc=len, fill_value=0)
             ratio = count.div(count.sum(axis=0), axis=1)
-
-            # 根据熵值从小到大对数据框的列排序
             entropies = ratio.apply(entropy, axis=0, base=2)
             ratio = ratio[entropies.sort_values().index]
             order_row = np.argsort(ratio.sum(1).values)[::-1]
@@ -919,163 +675,6 @@ def fateMapping(adata,
     if predict_adata is not None:
         return(merge_data)
 
-
-# def compareSpeciesStage(adata,
-#                         stage_label, 
-#                         condition_label,
-#                         condition1, 
-#                         condition2, 
-#                         basis = 'X_cca',
-#                         metric = 'similarity',
-#                         n_bins1=None,
-#                         n_bins2=None,
-#                         num=50,
-#                         cmap = 'RdYlBu_r',
-#                         figsize = (4.5,4),
-#                         save = None,
-#                         **kwargs):
-    
-#     if condition1 is None:
-#         condition1 = np.unique(adata.obs[condition_label])[0]
-#     if condition2 is None:
-#         condition2 = np.unique(adata.obs[condition_label])[1]
-#     conditions = [condition1, condition2]
-#     mean_rep1 = []
-#     mean_rep2 = []
-#     # Mean of condition 1
-#     sub_adata = adata[adata.obs[condition_label] == condition1]
-
-#     if n_bins1 is None:
-#         n_bins = len(adata.obs[stage_label].unique())
-#     else:
-#         n_bins = n_bins1
-#     cut_bins1 = pd.cut(np.array(sub_adata.obs[stage_label]), n_bins, labels=False)
-
-#     sub_adata.obs[stage_label] = np.array(sub_adata.obs[stage_label])
-#     sub_adata.obs['bin']=cut_bins1
-#     x1 = sub_adata.obs.groupby('bin')[stage_label].mean().values
-
-#     for t in np.sort(np.unique(cut_bins1)):
-#         mean_rep1.append(np.array(sub_adata.obsm[basis][cut_bins1==t].mean(0)).flatten())
-
-
-#     # Mean of condition 2
-#     sub_adata = adata[adata.obs[condition_label] == condition2]
-
-#     if n_bins2 is None:
-#         n_bins = len(adata.obs[stage_label].unique())
-#     else:
-#         n_bins = n_bins2
-#     cut_bins2 = pd.cut(np.array(sub_adata.obs[stage_label]), n_bins, labels=False)
-
-#     sub_adata.obs[stage_label] = np.array(sub_adata.obs[stage_label])
-#     sub_adata.obs['bin']=cut_bins2
-#     x2 = sub_adata.obs.groupby('bin')[stage_label].mean().values
-
-#     for t in np.sort(np.unique(cut_bins2)):
-#         mean_rep2.append(np.array(sub_adata.obsm[basis][cut_bins2==t].mean(0)).flatten())
-#     cormat = fast_corrcoef(np.vstack(mean_rep1), np.vstack(mean_rep2))
-    
-    
-#     # 平滑矩阵
-#     x1_new = np.linspace(min(x1), max(x1), num)
-#     x2_new = np.linspace(min(x2), max(x2), num)
-
-#     # 创建插值函数
-#     interp_func = interpolate.interp2d(x2, x1,cormat, kind='linear') # linear, cubic, quintic
-
-#     # 进行插值处理
-#     cormat_interp = pd.DataFrame(interp_func(x2_new, x1_new), index = np.round(x1_new,2), columns = np.round(x2_new,2))
-#     fig, ax = plt.subplots(1, 1,figsize = figsize)
-#     if metric == 'similarity':
-#         ax = sns.heatmap(cormat_interp,cmap = cmap,ax=ax,**kwargs)
-#     if metric == 'distance':
-#         ax = sns.heatmap(1-cormat_interp,cmap = cmap,ax=ax,**kwargs)
-#     ax.set_ylabel(condition1)
-#     ax.set_xlabel(condition2)
-#     ax.plot([0, len(x1_new)], [0, len(x2_new)], color='black', linewidth=1, linestyle='--')
-#     if save is not None:
-#         plt.savefig(save)
-#     else:
-#         plt.show()
-
-
-# def symbolMouse2Human(adata_mouse, 
-#                       adata_human,
-#                       merge_dup_genes = True,
-#                       anno_path = '/data1/home/jkchen/hlchen/0331/project/zhufeng_lung_stromal/HOM_MouseHumanSequence.rpt.txt'):
-#     '''
-#     Tranlate mouse gene symbol to human gene symbol
-#     '''
-#     mouse = adata_mouse.copy()
-#     mouse.var['Raw_symbol'] = mouse.var_names
-#     translate = pd.read_table(anno_path)
-#     df = translate.loc[:,['DB Class Key','Common Organism Name','NCBI Taxon ID','Symbol']]
-#     df.Symbol = [i.upper() for i in df.Symbol]
-#     mouse.var_names = [i.upper() for i in mouse.var_names]
-
-#     mouse.obs_names_make_unique()
-#     adata_human.obs_names_make_unique()
-
-#     mouse.var_names_make_unique()
-#     adata_human.var_names_make_unique()
-
-#     common_genes = np.intersect1d(mouse.var_names, adata_human.var_names)
-#     # part1_mouse = mouse[:,common_genes]
-#     part2_mouse = mouse[:,list(set(mouse.var_names)-set(common_genes))]
-    
-#     df_split = split(df, df['NCBI Taxon ID'])
-#     df_split[10090] = df_split[10090][df_split[10090]['Symbol'].isin(part2_mouse.var_names)]
-#     df = pd.concat([df_split[9606],df_split[10090]])
-#     id_split = split(df, df['DB Class Key'])
-
-#     m_genes = []
-#     h_genes = []
-#     for idx in id_split:
-#         gene_split = split(id_split[idx]['Symbol'], id_split[idx]['NCBI Taxon ID'])
-#         # 条件1 当一个或多个人的基因对应零个鼠的基因时，去除这些基因
-#         if (10090 in list(gene_split.keys())) & (9606 in list(gene_split.keys())):
-
-#             if len(gene_split[9606]) == 1:
-#                 if len(gene_split[10090]) == 1:
-#                     m_genes.append(gene_split[10090][0])
-#                     h_genes.append(gene_split[9606][0])
-#                 # else:
-#                 #     # 条件2 当一个人的基因对应多个鼠的基因时，以人的基因命名，鼠的基因取平均
-#                 #     gexp.append(part2_mouse[:,gene_split[10090]])
-#                 #     print(part2_mouse[:,gene_split[10090]])
-#             else:
-#                 # 条件3 当多个人的基因对应一个鼠的基因时，重复鼠的基因以与人的基因数量对应
-#                 if len(gene_split[10090]) == 1:
-#                     m_genes.extend(gene_split[10090]*len(gene_split[9606]))
-#                     h_genes.extend(gene_split[9606])
-
-#                 # 条件4 当多个人的基因对应多个鼠的基因时，只保留共享基因名的基因
-#                 if len(gene_split[10090]) > 1:
-#                     mouse_genes = np.array(gene_split[10090])[pd.Series([i.upper() for i in gene_split[10090]]).isin(gene_split[9606])]
-#                     if len(mouse_genes) > 0:
-#                         m_genes.extend(list(mouse_genes))
-#     mouse = mouse[:,np.concatenate([common_genes,m_genes])]
-#     mouse.var_names = np.concatenate([common_genes,h_genes])
-#     mouse = mouse[:,~mouse.var.index.duplicated()]
-    
-#     if merge_dup_genes:
-#         print('Merge gene expression with common symbols...')
-#         count = mouse.var_names.value_counts()
-#         # import pdb;pdb.set_trace()
-#         data1 = mouse[:,mouse.var_names.isin(count[count==1].index.values)]
-#         gs = count[count>1].index.values
-#         exp = []
-#         for g in gs:
-#             exp.append(csr_matrix(mouse[:,g].X.mean(1)))
-#         exp = sp.hstack(exp)
-#         var = mouse.var
-#         var = var[~var.index.duplicated()]
-#         X = sp.hstack([data1.X, exp])
-#         mouse = anndata.AnnData(X = X, obs = mouse.obs, var = var.loc[np.concatenate([data1.var_names.values,gs]),:],
-#                         obsm = mouse.obsm, uns = mouse.uns)
-    
-#     return(mouse)
 
 def label_cells(adata, 
                 predicted_adata=None,
